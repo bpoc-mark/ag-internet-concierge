@@ -30,13 +30,13 @@ $config["csvFile"]["name"] = "submit-form.csv";
  *******************************************/
 
 ## 問い合わせ担当者
-$config['receptionist_email'] = 'kids@valed.jp';
+$config['receptionist_email'] = 'markariel.maata@bpoc.co.jp';
 
 ## 自動返信メールの差出人名
-$config['sender_name'] = 'バレッドキッズ運営';
+$config['sender_name'] = 'Test';
 
 ## 自動返信メールの差出人メールアドレス
-$config['sender_email'] = "kids@valed.jp";
+$config['sender_email'] = "markariel.maata@bpoc.co.jp";
 
 ## メールの差出人を固定 (0:無効 / 1:固定)
 ## 固定にした場合、Reply-Toにお客様のアドレスがセットされます。
@@ -44,14 +44,15 @@ $config['reply_to_fixed'] = 1;
 
 ## 設置者に届くメールの件名
 ## %sにはシリアル番号が入ります。
-$config['receptionist_subject'] = "【バレッドキッズ】夏休みコースへのお問合せ";
+$config['receptionist_subject'] = "Test";
 
 ## 必須の項目
 ## メールアドレスはemailにしてください。
-$config['required_param'] = ["email","お子さまのお名前", "お子さまのお名前のフリガナ", "保護者のお名前", "保護者のお名前のフリガナ", "お子さまの学年", 
-                            "郵便番号", "住所", "連絡先（携帯でもOK）",  "人数", "参加希望日"];
+$config['required_param'] = ["email","都道府県","参加希望日","お子さまのお名前","お子さまのお名前のフリガナ","保護者のお名前","保護者のお名前のフリガナ","お子さまの学年","郵便番号","住所","連絡先（携帯でもOK）"];
 
-$config['required_checkbox_param'] =  ["希望コース","個人情報の取扱い"];
+$config['required_param02'] = ["email","保護者さまのお名前","保護者のお名前のフリガナ","住所","連絡先(携帯も可)"];
+
+$config['required_checkbox_param'] =  ["希望コース","個人情報の取扱い","希望コース","バレッドＸ","個人情報の取扱い"];
 
 
 ## 設置者に届くメールの本文整形
@@ -105,7 +106,7 @@ __posted_body__;
 
 
 ## 自動返信メールのタイトル
-$config["return_subject"] = 'バレッドキッズへのお問合わせについて';
+$config["return_subject"] = 'test';
 
 ## 自動返信メールの本文
 ## "<_"と"_>"で挟まれている項目名(変数)を挿入します。
@@ -164,12 +165,6 @@ $config['return_body'] = <<<__return_body__
 お心当たりのない方は、恐れ入りますが下記へその旨をご連絡いただけますと幸いです。<br>
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br>
 <br>
-パソコンスクール　バレッドキッズ総合受付<br>
-東京都千代田区内幸町1-2-1　日土地内幸町ビル７F<br>
-営業時間：平日12:00-18:00<br>
-TEL：0120-77-8088<br>
-E-mail：kids@valed.jp<br>
-公式Webサイト：https://kids.valed.jp<br>
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 __return_body__;
