@@ -3,6 +3,222 @@
   margin-top: 0;
 }
 
+/* Section 5 */
+.sec5-container {
+  padding-top: 160px;
+  padding-bottom: 120px;
+}
+
+.sec5-container .sec5-title h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 2.25rem;
+  line-height: 52px;
+  color: #1A6C49;
+  font-family: LineSeedBold;
+}
+
+.sec5-box-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 85px;
+  position: relative;
+}
+
+.sec5-box-container .card-container {
+  width: 20%;
+}
+
+.sec5-box-container .card-container .box-green {
+  position: relative;
+  z-index: 1;
+}
+.sec5-box-container .card-container .box-green figure {
+  position: relative;
+  border: solid #1A6C49;
+  border-radius: 30px;
+  border-width: 5px;
+  padding: 18px;
+  background: #E7F0EC;
+  z-index: 1;
+}
+
+.sec5-box-container .box-green .box-image {
+  height: 100%;
+  width: 100%;
+}
+.sec5-box-container .card-container:not(:last-child) .box-green::before {
+  content: "";
+  display: flex;
+  align-self: center;
+  background-color: #1A6C49;
+  height: 7px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0, -50%);
+  z-index: 0;
+}
+
+.card-message {
+  padding-top: 36px;
+}
+
+.card-message .card-title {
+  display: flex;
+  justify-content: center;
+}
+
+.card-message .card-title h3 {
+  font-family: LineSeedBold;
+  font-size: 1.68rem;
+  line-height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #CBCBCB;
+  width: 100%;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+
+.card-message .card-title h3 span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .75rem;
+  font-family: LineSeedBold;
+  color: white;
+  background-color: #1A6C49;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  margin-right: 8px;
+  line-height: 52px;
+}
+
+.card-message .card-description {
+}
+
+.card-message .card-description p{
+  font-size: 1.125rem;
+  line-height: 30px;
+  font-family: LineSeedRegular;
+  text-align: center;
+}
+
+@media screen and (max-width: 961px) {
+
+  .sec5-container {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .sec5-container .sec5-title h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.25rem;
+    line-height: 52px;
+    color: #1A6C49;
+    font-family: LineSeedBold;
+}
+
+  .sec5-box-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+  .sec5-box-container .card-container {
+    width: 100%;
+    display: flex;
+    margin-bottom: 8px;
+    align-items: center;
+  }
+
+
+  .card-message .card-title h3 {
+    font-size: 1rem;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    justify-content: left;
+}
+
+.card-message .card-title h3 span {
+  font-size: .75rem;
+  height: 22px;
+  width: 22px;
+}
+
+.card-message .card-description p {
+  font-size: 0.875rem;
+  text-align: left;
+}
+  .sec5-box-container .card-container .box-green {
+  position: relative;
+  z-index: 1;
+  width: 45%;
+  }
+
+  .sec5-box-container .card-container .box-green figure {
+    border: solid #1A6C49;
+    border-radius: 30px;
+    border-width: 5px;
+    padding: 18px;
+    background: #E7F0EC;
+    position: relative;
+    z-index: 1;
+    aspect-ratio: 1/1;
+}
+
+.card-message {
+  width: 55%;
+  text-align: left;
+  margin-left: 27px;
+  padding-bottom: 27px;
+}
+
+.sec5-box-container .card-container:not(:last-child) .box-green::before {
+  content: "";
+  display: flex;
+  align-self: center;
+  background-color: #1A6C49;
+  height: 7px;
+  width: 100%;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  z-index: 0;
+}
+}
+
+@media screen and (max-width: 361px) {
+
+  .sec5-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .card-message .card-description p {
+    font-size: 0.75rem;
+  }
+  .card-message .card-title h3 {
+    font-size: 0.875rem;
+  }
+
+  .card-message {
+    width: 55%;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.sec5-box-container .card-container {
+  margin-bottom: 0px;
+}
+}
 
 /* SECTION 11  */
 .sec7 {
