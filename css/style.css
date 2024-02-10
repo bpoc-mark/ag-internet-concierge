@@ -3,6 +3,131 @@
   margin-top: 0;
 }
 
+/* SECTION 3 */
+.sec3{
+  padding: 157px 0 120px;
+}
+.sec3 .mar-style{
+  max-width: 1680px;
+  text-align: center;
+}
+.sec3 h3 span{
+  font-size: 60px;
+  color: #E2C10D;
+  margin: 0 10px;
+}
+.sec3 ul{
+  list-style: none;
+}
+.sec3 ul li:not(:last-child){
+  margin-bottom: 32px;
+}
+.sec3 .row{
+  padding: 40px 55px;
+  background-color: #E7F0EC;
+  border-radius: 40px;
+  position: relative;
+}
+.sec3 h4{
+  font-size: 28px;
+  color: #1a6c49;
+  font-family: LineSeedBold;
+  text-align: left;
+  margin-bottom: 17px;
+}
+.sec3 .row-ttl span{
+  font-size: 180px;
+  color: rgba(26, 108, 73, 0.15);
+  font-family: LineSeedBold;
+  line-height: 1;
+}
+.sec3 p{
+  line-height: 37px;
+  text-align: left;
+}
+.sec3 figure{
+  display: flex;
+}
+
+@media screen and (min-width: 961px) {
+  .sec3 .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .sec3 .row .col:first-child{
+    width: 75%;
+  }
+  .sec3 .row .col:last-child{
+    width: 25%;
+  }
+  .sec3 li:first-child .row-ttl span{
+    left: 25px;
+  }
+  .sec3 .row-ttl span{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+  }
+  .sec3 .row .col:first-child{
+    padding: 0 25px 0 90px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .sec3 .row-ttl span{
+    left: 130px;
+  }
+  .sec3 .row .col:first-child{
+    padding: 0 55px 0 285px;
+  }
+  .sec3 li:first-child .row-ttl span{
+    left: 145px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .sec3{
+    padding: 64px 0 64px;
+  }
+  .sec3 .component--hdng-ttl span{
+    line-height: 40px;
+  }
+  .sec3 .component--hdng-ttl span{
+    font-size: 36px;
+    margin: 0 3px;
+  }
+  .sec3 .row{
+    padding: 23px 24px 30px;
+    border-radius: 37px;
+  }
+  .sec3 .row .col:first-child{
+    margin-bottom: 10px;
+  }
+  .sec3 .row-ttl{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 13px;
+  }
+  .sec3 h4{
+    font-size: 20px;
+    margin-bottom: 0;
+    line-height: 33px;
+    margin-left: 16px;
+  }
+  .sec3 .row-ttl span{
+    font-size: 82px;
+  }
+  .sec3 p {
+    font-size: 16px;
+    line-height: 31px;
+  }
+}
+
+/* END OF SECTION 3 */
+
 
 /* SECTION 11  */
 .sec7 {
