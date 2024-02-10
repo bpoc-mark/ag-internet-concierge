@@ -37,7 +37,7 @@ p {
   font-weight: 400;
   line-height: 1.8;
   font-size: 1.125em;
-  color: #37393C;
+  color: #353C35;
 }
 
 /* 文字基準 */
@@ -51,12 +51,11 @@ header {
   position: relative;
   width: auto;
   margin-top: 100px;
-  overflow-x: hidden;
 }
 
 .contents .mar-style {
   width: calc(100% - 48px);
-  margin: 0 auto 40px;
+  margin: 0 auto;
 
 }
 
@@ -65,7 +64,7 @@ header {
     max-width: 1480px;
     width: auto;
     padding: 0 40px;
-    margin: 0 auto 40px;
+    margin: 0 auto;
   }
 }
 

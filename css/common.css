@@ -14,30 +14,19 @@
 
 /* Component */
 .component--hdng-ttl {
-  color: #37393C;
-  font-size: 32px;
+  font-family: LineSeedBold;
+  font-size: 2.25em;
   text-align: center;
-  position: relative;
-  margin: 0 0 64px 0;
-}
-
-.component--hdng-ttl::after {
-  content: "";
-  position: absolute;
-  bottom: -24px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-image: url("../images/decoration.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 120px;
-  height: 4px;
+  color: #1A6C49;
+  margin: 0 0 50px 0;
 }
 
 
 @media screen and (max-width: 960px) {
   .component--hdng-ttl {
     font-size: 20px;
+    margin: 0 0 40px 0;
+    line-height: 33px;
   }
 
 }
