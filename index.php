@@ -293,12 +293,10 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       <section class="secCTA">
 
       </section>
-      <section id="sec9">
-        <?php
+      <?php
         // お問い合わせフォーム
         require_once DOCROOT . 'contact/send_functions.php';
         include('./contact/includes/form.php'); ?>
-      </section>
     </div>
     <!--/contents-->
   </main>
