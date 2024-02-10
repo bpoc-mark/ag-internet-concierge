@@ -53,14 +53,14 @@ header {
   margin-top: 100px;
 }
 
-.contents .mar-style {
+.mar-style {
   width: calc(100% - 48px);
   margin: 0 auto;
 
 }
 
 @media screen and (min-width: 960px) {
-  .contents .mar-style {
+  .mar-style {
     max-width: 1480px;
     width: auto;
     padding: 0 40px;
