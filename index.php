@@ -4,6 +4,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
 ?>
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -87,7 +88,55 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
         <h1 style="font-family: LineSeedBold; font-size: 70px;">インターネットの<br>わからないを解決します。</h1>
       </section>
       <section class="sec2">
-
+        <div class="mar-style">
+          <div class="sec2--container">
+            <div class="l-wrap">
+              <div class="wrapperContainer">
+                <div class="wrapper">
+                  <div class="tittle--text">
+                    <h1>通信トラブル、速度が遅い、<br>
+                      不安定などの解決</h1>
+                  </div>
+                  <div class="detail-box">
+                    <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここ</p>
+                  </div>
+                </div>
+              </div>
+              <div class="wrapperContainer">
+                <div class="wrapper">
+                  <div class="tittle--text">
+                    <h1>高額請求や、勧誘電話の対処、開通後、<br>開通前の解約、契約のキャンセル</h1>
+                  </div>
+                  <div class="detail-box">
+                    <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここ</p>
+                  </div>
+                </div>
+              </div>
+              <div class="wrapperContainer">
+                <div class="wrapper">
+                  <div class="tittle--text">
+                    <h1>あなたにあったベストな<br>
+                      インターネットプランのご提案</h1>
+                  </div>
+                  <div class="detail-box">
+                    <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここ</p>
+                  </div>
+                </div>
+              </div>
+              <div class="wrapperContainer">
+                <div class="wrapper">
+                  <div class="tittle--text">
+                    <h1>回線を変えたが<br>
+                      やっぱり元の回線に戻したい</h1>
+                  </div>
+                  <div class="detail-box">
+                    <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここ</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="sec3">
 
@@ -233,13 +282,25 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       </section>
     </div>
     <!--/contents-->
+
   </main>
 
   <footer class="bg_ft">
-    <div>
-      <p>Copyright © 2023 VALED All Rights Reserved.</p>
+    <div class="mar-style">
+      <div class="footer--container">
+        <div class="footer--des">
+          <p>© GlobalCast Co.,Ltd. All Rights Reserved. </p>
+          <div class="info--container">
+            <div class="info">
+              <p class="info--p">運営会社</p>
+              <p>プライバシー・ポリシー</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -253,4 +314,5 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
   </script>
 
 </body>
+
 </html>
