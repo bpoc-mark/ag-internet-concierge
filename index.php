@@ -85,7 +85,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
   <main>
     <div class="contents">
       <section class="sec1">
-        <h1 style="font-family: LineSeedBold; font-size: 70px;">インターネットの<br>わからないを解決します。</h1>
+        <!-- <h1 style="font-family: LineSeedBold; font-size: 70px;">インターネットの<br>わからないを解決します。</h1> -->
       </section>
       <section class="sec2">
         <div class="mar-style">
@@ -139,7 +139,75 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
         </div>
       </section>
       <section class="sec3">
-
+        <div class="mar-style">
+          <h3 class="component--hdng-ttl">ネット回線コンシェルジュが<br class="sp">選ばれる<span>4</span>つの理由</h3>
+          <ul>
+            <li>
+              <div class="row">
+                <div class="col">
+                  <div class="row-ttl">
+                    <span>1</span>
+                    <h4>業界トップの<br class="sp">幅広いサポート対応</h4>
+                  </div>
+                  <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章</p>
+                </div>
+                <div class="col">
+                  <figure>
+                    <img src="/images/sec3/img_dummy.jpg" alt="">
+                  </figure>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col">
+                  <div class="row-ttl">
+                    <span>2</span>
+                    <h4>インターネットに<br class="sp">関する豊富な知識</h4>
+                  </div>
+                  <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章</p>
+                </div>
+                <div class="col">
+                  <figure>
+                    <img src="/images/sec3/img_dummy.jpg" alt="">
+                  </figure>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col">
+                  <div class="row-ttl">
+                    <span>3</span>
+                    <h4>取り扱い商材数 NO.１</h4>
+                  </div>
+                  <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章</p>
+                </div>
+                <div class="col">
+                  <figure>
+                    <img src="/images/sec3/img_dummy.jpg" alt="">
+                  </figure>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col">
+                  <div class="row-ttl">
+                    <span>4</span>
+                    <h4>手続きが簡単</h4>
+                  </div>
+                  <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章</p>
+                </div>
+                <div class="col">
+                  <figure>
+                    <img src="/images/sec3/img_dummy.jpg" alt="">
+                  </figure>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="secCTA">
 
@@ -274,12 +342,10 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       <section class="secCTA">
 
       </section>
-      <section id="sec9">
-        <?php
+      <?php
         // お問い合わせフォーム
         require_once DOCROOT . 'contact/send_functions.php';
         include('./contact/includes/form.php'); ?>
-      </section>
     </div>
     <!--/contents-->
 
