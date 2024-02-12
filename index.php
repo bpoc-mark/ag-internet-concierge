@@ -85,52 +85,61 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
   <main>
     <div class="contents">
       <section class="sec1">
-        <!-- <h1 style="font-family: LineSeedBold; font-size: 70px;">インターネットの<br>わからないを解決します。</h1> -->
+        <h1 style="font-family: LineSeedBold; font-size: 70px;">インターネットの<br>わからないを解決します。</h1>
       </section>
       <section class="sec2">
-        <div class="mar-style">
-          <div class="sec2--container">
-            <div class="l-wrap">
-              <div class="wrapperContainer">
-                <div class="wrapper">
-                  <div class="tittle--text">
-                    <h1>通信トラブル、速度が遅い、<br>
-                      不安定などの解決</h1>
-                  </div>
-                  <div class="detail-box">
-                    <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここ</p>
-                  </div>
-                </div>
-              </div>
-              <div class="wrapperContainer">
-                <div class="wrapper">
-                  <div class="tittle--text">
-                    <h1>高額請求や、勧誘電話の対処、開通後、<br>開通前の解約、契約のキャンセル</h1>
-                  </div>
-                  <div class="detail-box">
-                    <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここ</p>
-                  </div>
-                </div>
-              </div>
-              <div class="wrapperContainer">
-                <div class="wrapper">
-                  <div class="tittle--text">
-                    <h1>あなたにあったベストな<br>
-                      インターネットプランのご提案</h1>
-                  </div>
-                  <div class="detail-box">
-                    <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここ</p>
+        <div class="hdr-container">
+          <div class="mar-style">
+            <div class="hdr">
+              <h3 class="component--hdng-ttll">ネット回線コンシェルジュで解決できること</h3>
+            </div>
+          </div>
+        </div>
+        <div class="contnr">
+          <div class="mar-style bg">
+            <div class="sec2--container">
+              <div class="l-wrap">
+                <div class="wrapperContainer">
+                  <div class="wrapper">
+                    <div class="tittle--text">
+                      <h1>通信トラブル、速度が遅い、<br>
+                        不安定などの解決</h1>
+                    </div>
+                    <div class="detail-box">
+                      <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここ</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="wrapperContainer">
-                <div class="wrapper">
-                  <div class="tittle--text">
-                    <h1>回線を変えたが<br>
-                      やっぱり元の回線に戻したい</h1>
+                <div class="wrapperContainer">
+                  <div class="wrapper">
+                    <div class="tittle--text">
+                      <h1>高額請求や、勧誘電話の対処、開通後、<br>開通前の解約、契約のキャンセル</h1>
+                    </div>
+                    <div class="detail-box">
+                      <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここ</p>
+                    </div>
                   </div>
-                  <div class="detail-box">
-                    <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここ</p>
+                </div>
+                <div class="wrapperContainer">
+                  <div class="wrapper">
+                    <div class="tittle--text">
+                      <h1>あなたにあったベストな<br>
+                        インターネットプランのご提案</h1>
+                    </div>
+                    <div class="detail-box">
+                      <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="wrapperContainer">
+                  <div class="wrapper">
+                    <div class="tittle--text">
+                      <h1>回線を変えたが<br>
+                        やっぱり元の回線に戻したい</h1>
+                    </div>
+                    <div class="detail-box">
+                      <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここ</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -139,75 +148,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
         </div>
       </section>
       <section class="sec3">
-        <div class="mar-style">
-          <h3 class="component--hdng-ttl">ネット回線コンシェルジュが<br class="sp">選ばれる<span>4</span>つの理由</h3>
-          <ul>
-            <li>
-              <div class="row">
-                <div class="col">
-                  <div class="row-ttl">
-                    <span>1</span>
-                    <h4>業界トップの<br class="sp">幅広いサポート対応</h4>
-                  </div>
-                  <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章</p>
-                </div>
-                <div class="col">
-                  <figure>
-                    <img src="/images/sec3/img_dummy.jpg" alt="">
-                  </figure>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="row">
-                <div class="col">
-                  <div class="row-ttl">
-                    <span>2</span>
-                    <h4>インターネットに<br class="sp">関する豊富な知識</h4>
-                  </div>
-                  <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章</p>
-                </div>
-                <div class="col">
-                  <figure>
-                    <img src="/images/sec3/img_dummy.jpg" alt="">
-                  </figure>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="row">
-                <div class="col">
-                  <div class="row-ttl">
-                    <span>3</span>
-                    <h4>取り扱い商材数 NO.１</h4>
-                  </div>
-                  <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章</p>
-                </div>
-                <div class="col">
-                  <figure>
-                    <img src="/images/sec3/img_dummy.jpg" alt="">
-                  </figure>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="row">
-                <div class="col">
-                  <div class="row-ttl">
-                    <span>4</span>
-                    <h4>手続きが簡単</h4>
-                  </div>
-                  <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章</p>
-                </div>
-                <div class="col">
-                  <figure>
-                    <img src="/images/sec3/img_dummy.jpg" alt="">
-                  </figure>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
+
       </section>
       <section class="secCTA">
 
@@ -342,10 +283,12 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       <section class="secCTA">
 
       </section>
-      <?php
+      <section id="sec9">
+        <?php
         // お問い合わせフォーム
         require_once DOCROOT . 'contact/send_functions.php';
         include('./contact/includes/form.php'); ?>
+      </section>
     </div>
     <!--/contents-->
 
@@ -374,6 +317,8 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
   <script src="js/common.js" defer></script>
   <script>
+    $('.sec2 .wrapper').matchHeight();
+
     AOS.init({
       once: true,
     });
