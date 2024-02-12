@@ -252,7 +252,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                     どういうお子さんが学んでいるの？
                   </p>
                 </div>
-                <img src="/images/common/arrow_red.svg" alt="">
+                <img src="/images/common/arrow_icon_up.png" alt="">
               </a>
               <div class="sec7--drop-down">
                 <p>
@@ -268,7 +268,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                     未経験で家にもパソコンがないけど大丈夫なの？
                   </p>
                 </div>
-                <img src="/images/common/arrow_red.svg" alt="">
+                <img src="/images/common/arrow_icon_up.png" alt="">
               </a>
               <div class="sec7--drop-down">
                 <p>
@@ -284,7 +284,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                     他のプログラミング教室何が違うの？
                   </p>
                 </div>
-                <img src="/images/common/arrow_red.svg" alt="">
+                <img src="/images/common/arrow_icon_up.png" alt="">
               </a>
               <div class="sec7--drop-down">
                 <p>
@@ -300,7 +300,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                     無料体験は何ができるの？費用は一切かからないの？
                   </p>
                 </div>
-                <img src="/images/common/arrow_red.svg" alt="">
+                <img src="/images/common/arrow_icon_up.png" alt="">
               </a>
               <div class="sec7--drop-down">
                 <p>
@@ -316,7 +316,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                     入会するタイミングは？いつでもできるの？
                   </p>
                 </div>
-                <img src="/images/common/arrow_red.svg" alt="">
+                <img src="/images/common/arrow_icon_up.png" alt="">
               </a>
               <div class="sec7--drop-down">
                 <p>
@@ -332,7 +332,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                     １回の授業は何分？月何回通うの？
                   </p>
                 </div>
-                <img src="/images/common/arrow_red.svg" alt="">
+                <img src="/images/common/arrow_icon_up.png" alt="">
               </a>
               <div class="sec7--drop-down">
                 <p>
@@ -350,7 +350,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                     人気のコースを教えてください。
                   </p>
                 </div>
-                <img src="/images/common/arrow_red.svg" alt="">
+                <img src="/images/common/arrow_icon_up.png" alt="">
               </a>
               <div class="sec7--drop-down">
                 <p>
