@@ -154,23 +154,212 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
 
       </section>
       <section class="sec5">
+        <div class="mar-style">
+          <div class="sec5-container">
+            <div class="sec5-title">
+              <h3>ご利用までの流れ</h3>
+            </div>
+            <div class="sec5-box-container ">
+              <div class="card-container">
+                <div class="box-green">
+                  <figure>
+                    <img src="images/sec5/box-image.png" alt="box-image" class="box-image" />
+                  </figure>
+                </div>
+                <div class="card-message">
+                  <div class="card-title">
+                    <h3><span>1</span>お申し込み</h3>
+                  </div>
+                  <div class="card-description">
+                    <p>簡単なフォームにて<br>
+                      情報の入力をします。</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-container">
+                <div class="box-green">
+                  <figure>
+                    <img src="images/sec5/box-image.png" alt="box-image" class="box-image" />
+                  </figure>
+                </div>
+                <div class="card-message">
+                  <div class="card-title">
+                    <h3><span>2</span>カウンセリング</h3>
+                  </div>
+                  <div class="card-description">
+                    <p>当社スタッフからの<br>連絡を待ちます。</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-container">
+                <div class="box-green">
+                  <figure>
+                    <img src="images/sec5/box-image.png" alt="box-image" class="box-image" />
+                  </figure>
+                </div>
+                <div class="card-message">
+                  <div class="card-title">
+                    <h3><span>3</span>相談</h3>
+                  </div>
+                  <div class="card-description">
+                    <p>連絡がきたら<br>
+                      詳細をお伝え下さい。</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-container">
+                <div class="box-green">
+                  <figure>
+                    <img src="images/sec5/box-image.png" alt="box-image" class="box-image" />
+                  </figure>
+                </div>
+                <div class="card-message">
+                  <div class="card-title">
+                    <h3><span>4</span>問題解決</h3>
+                  </div>
+                  <div class="card-description">
+                    <p>相談により問題解決！</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+    <section class="sec6">
 
-      </section>
-      <section class="sec6">
+    </section>
+    <section id="sec7" class="sec7">
+      <div class="mar-style">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center">
+          <h2 class="component--hdng-ttl" data-aos="fade-up" data-aos-anchor-placement="top-center">よくある質問</h2>
+          <div class="sec7--container">
+            <a href="" class="sec7--drop-button">
+              <div>
+                <span>Ｑ.</span>
+                <p>
+                  どういうお子さんが学んでいるの？
+                </p>
+              </div>
+              <img src="/images/common/arrow_icon_up.png" alt="">
+            </a>
+            <div class="sec7--drop-down">
+              <p>
+                <span>A.</span>年中～高校３年生までの方が学んでいらっしゃいます。長く通っている方では、６年以上継続している方もいます。プログラミングやパソコンの基礎から応用、検定取得までできるので、着実にレベルアップを目指していただけます。
+              </p>
+            </div>
+          </div>
+          <div class="sec7--container">
+            <a href="" class="sec7--drop-button">
+              <div>
+                <span>Ｑ.</span>
+                <p>
+                  未経験で家にもパソコンがないけど大丈夫なの？
+                </p>
+              </div>
+              <img src="/images/common/arrow_icon_up.png" alt="">
+            </a>
+            <div class="sec7--drop-down">
+              <p>
+                <span>A.</span>教室では週１・２回、各５０分ひとり１台のパソコンを使って練習しますので、その中でしっかりスキルアップしていきます。また、宿題なども出しませんので、ご自宅にパソコンがなくても大丈夫ですので、ご安心ください。
+              </p>
+            </div>
+          </div>
+          <div class="sec7--container">
+            <a href="" class="sec7--drop-button">
+              <div>
+                <span>Ｑ.</span>
+                <p>
+                  他のプログラミング教室何が違うの？
+                </p>
+              </div>
+              <img src="/images/common/arrow_icon_up.png" alt="">
+            </a>
+            <div class="sec7--drop-down">
+              <p>
+                <span>A.</span>プログラミングに加え、タイピングやパソコンの操作や知識も併せて総合的に学べます。将来、どんな職業についても必要な総合的なスキルをバランスよく育みます。
+              </p>
+            </div>
+          </div>
+          <div class="sec7--container">
+            <a href="" class="sec7--drop-button">
+              <div>
+                <span>Ｑ.</span>
+                <p>
+                  無料体験は何ができるの？費用は一切かからないの？
+                </p>
+              </div>
+              <img src="/images/common/arrow_icon_up.png" alt="">
+            </a>
+            <div class="sec7--drop-down">
+              <p>
+                <span>A.</span>プログラミングとパソコン操作の両方の要素が入った課題で体験ができます。費用は一切かかりませんので、お気軽に無料体験をご予約ください。
+              </p>
+            </div>
+          </div>
+          <div class="sec7--container">
+            <a href="" class="sec7--drop-button">
+              <div>
+                <span>Ｑ.</span>
+                <p>
+                  入会するタイミングは？いつでもできるの？
+                </p>
+              </div>
+              <img src="/images/common/arrow_icon_up.png" alt="">
+            </a>
+            <div class="sec7--drop-down">
+              <p>
+                <span>A.</span>空席のところであれば、何月からでも、月途中からでもご入会いただけます。
+              </p>
+            </div>
+          </div>
+          <div class="sec7--container">
+            <a href="" class="sec7--drop-button">
+              <div>
+                <span>Ｑ.</span>
+                <p>
+                  １回の授業は何分？月何回通うの？
+                </p>
+              </div>
+              <img src="/images/common/arrow_icon_up.png" alt="">
+            </a>
+            <div class="sec7--drop-down">
+              <p>
+                <span>A.</span>１回の授業は５０分です。コースによって、月４回～８回受講いただけます。<br>
+                ＊教室の授業カレンダーにより回数が変動する月もございます
 
-      </section>
-      <section id="sec7" class="sec7">
+              </p>
+            </div>
+          </div>
+          <div class="sec7--container">
+            <a href="" class="sec7--drop-button">
+              <div>
+                <span>Ｑ.</span>
+                <p>
+                  人気のコースを教えてください。
+                </p>
+              </div>
+              <img src="/images/common/arrow_icon_up.png" alt="">
+            </a>
+            <div class="sec7--drop-down">
+              <p>
+                <span>A.</span>総合的に学べる、PC-ICT+ロジカコースが人気です。プログラミングでは、子どもむけのビジュアル言語から、一般的なテキスト言語、パソコンではタイピングからオフィス操作、検定取得までお子様のスキルを育むカリキュラムです。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="secCTA">
 
-      </section>
-      <section class="secCTA">
-
-      </section>
-      <section id="sec9">
-        <?php
-        // お問い合わせフォーム
-        require_once DOCROOT . 'contact/send_functions.php';
-        include('./contact/includes/form.php'); ?>
-      </section>
+    </section>
+    <section id="sec9">
+      <?php
+      // お問い合わせフォーム
+      require_once DOCROOT . 'contact/send_functions.php';
+      include('./contact/includes/form.php'); ?>
+    </section>
     </div>
     <!--/contents-->
 

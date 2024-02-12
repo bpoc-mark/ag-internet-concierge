@@ -130,12 +130,15 @@
   color: #e2c10d;
   margin: 0 10px;
 }
+
 .sec3 ul {
   list-style: none;
 }
+
 .sec3 ul li:not(:last-child) {
   margin-bottom: 32px;
 }
+
 .sec3 .row {
   padding: 40px 55px;
   background-color: #e7f0ec;
@@ -169,15 +172,19 @@
     flex-wrap: wrap;
     align-items: center;
   }
+
   .sec3 .row .col:first-child {
     width: 75%;
   }
+
   .sec3 .row .col:last-child {
     width: 25%;
   }
+
   .sec3 li:first-child .row-ttl span {
     left: 25px;
   }
+
   .sec3 .row-ttl span {
     position: absolute;
     top: 50%;
@@ -193,9 +200,11 @@
   .sec3 .row-ttl span {
     left: 130px;
   }
+
   .sec3 .row .col:first-child {
     padding: 0 55px 0 285px;
   }
+
   .sec3 li:first-child .row-ttl span {
     left: 145px;
   }
@@ -205,9 +214,11 @@
   .sec3 {
     padding: 64px 0 64px;
   }
+
   .sec3 .component--hdng-ttl span {
     line-height: 40px;
   }
+
   .sec3 .component--hdng-ttl span {
     font-size: 36px;
     margin: 0 3px;
@@ -216,9 +227,11 @@
     padding: 23px 24px 30px;
     border-radius: 37px;
   }
+
   .sec3 .row .col:first-child {
     margin-bottom: 10px;
   }
+
   .sec3 .row-ttl {
     display: flex;
     align-items: center;
@@ -234,6 +247,7 @@
   .sec3 .row-ttl span {
     font-size: 82px;
   }
+
   .sec3 p {
     font-size: 16px;
     line-height: 31px;
@@ -242,20 +256,230 @@
 
 /* END OF SECTION 3 */
 
-/* SECTION 7  */
-.sec7 {
-  background-color: #f4f4f4;
-  padding: 120px 0 80px;
+/* Section 5 */
+.sec5-container {
+  padding-top: 160px;
+  padding-bottom: 155px;
 }
 
-.sec7 .component--hdng-ttl {
-  margin: 0 0 78px 0;
+.sec5-container .sec5-title h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  line-height: 52px;
+  color: #1a6c49;
+  font-family: LineSeedBold;
+}
+
+.sec5-box-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 85px;
+  position: relative;
+}
+
+.sec5-box-container .card-container {
+  width: 20%;
+}
+
+.sec5-box-container .card-container .box-green {
+  position: relative;
+  z-index: 1;
+}
+
+.sec5-box-container .card-container .box-green figure {
+  display: flex;
+  position: relative;
+  border: solid #1a6c49;
+  border-radius: 30px;
+  border-width: 5px;
+  padding: 18px;
+  background: #e7f0ec;
+  z-index: 1;
+}
+
+.sec5-box-container .box-green .box-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sec5-box-container .card-container:not(:last-child) .box-green::before {
+  content: "";
+  display: flex;
+  align-self: center;
+  background-color: #1a6c49;
+  height: 7px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0, -50%);
+  z-index: 0;
+}
+
+.card-message {
+  padding-top: 30px;
+}
+
+.card-message .card-title {
+  display: flex;
+  justify-content: center;
+}
+
+.card-message .card-title h3 {
+  font-family: LineSeedBold;
+  font-size: 27px;
+  line-height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #cbcbcb;
+  width: 100%;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+.card-message .card-title h3 span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: LineSeedBold;
+  color: white;
+  background-color: #1a6c49;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  margin-right: 8px;
+  line-height: 52px;
+}
+.card-message .card-description p {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: LineSeedRegular;
+  text-align: center;
+}
+@media screen and (min-width: 961px) and (max-width: 1220px) {
+  .card-message .card-title h3 {
+    font-size: 2vw;
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .sec5-container {
+    padding-top: 50px;
+    padding-bottom: 64px;
+  }
+
+  .sec5-container .sec5-title h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.25rem;
+    line-height: 52px;
+    color: #1a6c49;
+    font-family: LineSeedBold;
+  }
+
+  .sec5-box-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+    position: relative;
+    flex-wrap: wrap;
+  }
+
+  .sec5-box-container .card-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .sec5-box-container .card-container:not(:last-child) {
+    margin-bottom: 35px;
+  }
+
+  .card-message .card-title h3 {
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    justify-content: left;
+    line-height: 1;
+  }
+
+  .card-message .card-title h3 span {
+    font-size: 14px;
+    height: 22px;
+    width: 22px;
+  }
+
+  .card-message .card-description p {
+    font-size: 14px;
+    text-align: left;
+    line-height: 23px;
+  }
+
+  .sec5-box-container .card-container .box-green {
+    position: relative;
+    z-index: 1;
+    width: 45%;
+  }
+
+  .sec5-box-container .card-container .box-green figure {
+    border: 4px solid #1a6c49;
+    border-radius: 23px;
+    padding: 10px;
+  }
+
+  .card-message {
+    width: 55%;
+    text-align: left;
+    padding-left: 27px;
+    padding-top: 0;
+  }
+
+  .sec5-box-container .card-container:not(:last-child) .box-green::before {
+    height: 4px;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .sec5-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .card-message .card-description p {
+    font-size: 0.75rem;
+  }
+
+  .card-message .card-title h3 {
+    font-size: 0.875rem;
+  }
+
+  .card-message {
+    padding-left: 10px;
+  }
+
+  .sec5-box-container .card-container {
+    margin-bottom: 0px;
+  }
+}
+
+/* SECTION 11  */
+.sec7 {
+  background-color: #f4f4f4;
+  padding: 120px 0;
 }
 
 .sec7--container {
   background-color: #ffffff;
   border-radius: 10px;
-  padding: 18px;
+  padding: 30px 32px 28px;
+  background-color: #1a6c49;
 }
 
 .sec7--container:not(:last-child) {
@@ -264,6 +488,7 @@
 
 .sec7--container a {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -273,40 +498,46 @@
 }
 
 .sec7--container a img {
-  width: 20px;
+  width: 24px;
+  height: 14px;
 }
 
 .sec7--container a p {
-  font-size: 20px;
+  font-size: 27px;
   font-weight: 700;
-  color: #37393c;
+  color: white;
+  font-family: LineSeedBold;
 }
 
 .sec7--container a span {
-  font-size: 26px;
+  font-size: 27px;
   font-weight: 700;
-  color: #d93f3f;
+  color: white;
   padding-right: 17px;
+  font-family: LineSeedBold;
 }
 
 .sec7--drop-down {
   display: none;
-  background-color: #fcf1cb;
+  background-color: #ffffff;
   border-radius: 10px;
   margin-top: 18px;
 }
 
 .sec7--drop-down p {
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 20px;
+  font-family: LineSeedRegular;
+  line-height: 35px;
   padding: 24px 28px;
   color: #37393c;
+  text-indent: -44px;
+  margin-left: 40px;
 }
 
 .sec7--drop-down p span {
-  font-size: 26px;
-  font-weight: 700;
-  color: #d93f3f;
+  font-size: 27px;
+  font-family: LineSeedBold;
+  color: #e2c10d;
   padding-right: 14px;
 }
 
@@ -317,6 +548,7 @@
 
 .sec7--drop-button {
   transition: 0.3s ease-in-out;
+  background-color: #1a6c49;
 }
 
 .sec7--container {
@@ -330,29 +562,45 @@
 
 @media screen and (max-width: 960px) {
   .sec7 {
-    padding: 65px 0 40px;
+    padding: 55px 0 64px;
   }
-
+  .sec7--container a {
+    align-items: flex-start;
+  }
+  .sec7--container a div {
+    width: calc(100% - 17px);
+    justify-content: flex-start;
+  }
   .sec7--container a p {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 26px;
     padding-right: 14px;
   }
 
   .sec7--container a span {
     font-size: 18px;
-    line-height: 27px;
-    padding-right: 5px;
+    line-height: 1;
+    padding-right: 9px;
+    position: relative;
+    top: 5px;
+  }
+  .sec7--container a img {
+    width: 17px;
+    height: 10px;
+    position: relative;
+    top: 8px;
   }
 
   .sec7--container {
-    padding: 18px;
+    padding: 25px 24px 23px;
   }
 
   .sec7--drop-down p {
-    font-size: 16px;
-    line-height: 22px;
-    padding: 12px 15px;
+    font-size: 14px;
+    line-height: 23px;
+    padding: 7px 15px 9px;
+    text-indent: -27px;
+    margin-left: 27px;
   }
 
   .sec7--drop-down p span {
@@ -363,10 +611,6 @@
 
   .sec7--container:not(:last-child) {
     margin-bottom: 16px;
-  }
-
-  .sec7 .component--hdng-ttl {
-    margin: 0 0 65px 0;
   }
 }
 
@@ -1747,4 +1991,5 @@
     margin: 0px 3px 0px 0px;
   }
 }
+
 /* End of Contact CSS */
