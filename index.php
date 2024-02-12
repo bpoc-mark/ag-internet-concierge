@@ -164,7 +164,78 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
 
       </section>
       <section class="sec5">
-
+        <div class="mar-style">
+          <div class="sec5-container">
+            <div class="sec5-title">
+              <h3>ご利用までの流れ</h3>
+            </div>
+            <div class="sec5-box-container ">     
+                <div class="card-container">
+                  <div class="box-green">
+                    <figure>
+                      <img src="images/sec5/box-image.png" alt="box-image" class="box-image"/>
+                    </figure>
+                  </div>
+                  <div class="card-message">
+                    <div class="card-title">
+                   <h3><span>1</span>お申し込み</h3>
+                    </div>
+                    <div class="card-description">
+                      <p>簡単なフォームにて<br>
+                        情報の入力をします。</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-container">
+                  <div class="box-green">
+                    <figure>
+                      <img src="images/sec5/box-image.png" alt="box-image" class="box-image"/>
+                    </figure>
+                  </div>
+                  <div class="card-message">
+                  <div class="card-title">
+                   <h3><span>2</span>カウンセリング</h3>
+                    </div>
+                    <div class="card-description">
+                      <p>当社スタッフからの<br>連絡を待ちます。</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-container">
+                  <div class="box-green">
+                    <figure>
+                      <img src="images/sec5/box-image.png" alt="box-image" class="box-image"/>
+                    </figure>
+                  </div>
+                  <div class="card-message">
+                  <div class="card-title">
+                   <h3><span>3</span>相談</h3>
+                    </div>
+                    <div class="card-description">
+                      <p>連絡がきたら<br>
+                      詳細をお伝え下さい。</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-container">
+                  <div class="box-green">
+                    <figure>
+                      <img src="images/sec5/box-image.png" alt="box-image" class="box-image"/>
+                    </figure>
+                  </div>
+                  <div class="card-message">
+                  <div class="card-title">
+                   <h3><span>4</span>問題解決</h3>
+                    </div>
+                    <div class="card-description">
+                      <p>相談により問題解決！</p>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="sec6">
 
