@@ -5,7 +5,8 @@
 /* start section 2 */
 .sec2 .component--hdng-ttll {
   font-family: LineSeedBold;
-  font-size: 2.25em;
+  font-size: 36px;
+  line-height: 52px;
   color: #1a6c49;
 }
 
@@ -19,27 +20,28 @@
   flex-wrap: wrap;
 }
 .sec2--container .wrapperContainer {
-  padding: 0 20px 36px;
+  /* padding: 0 20px 36px; */
+  padding: 0 34px 64px;
   width: calc(100% / 2);
 }
 .sec2--container .wrapper {
   border-radius: 40px;
   background-color: #ffffff;
-  padding: 59px 62px 0px;
+  padding: 49px 62px 0px;
 }
 
 .sec2--container .wrapper .tittle--text h1 {
   font-size: 30px;
   font-family: LineSeedBold;
   line-height: 48px;
-  padding-bottom: 52px;
+  padding-bottom: 29px;
   color: #1a6c49;
 }
 .sec2--container .detail-box p {
   font-size: 18px;
   font-family: LineSeedRegular;
   line-height: 38px;
-  padding-bottom: 46px;
+  padding-bottom: 36px;
 }
 .sec2 .hdr-container {
   position: relative;
@@ -47,7 +49,7 @@
 .sec2 .hdr-container::before {
   content: "";
   display: block;
-  width: 40%;
+  width: 20%;
   height: 100%;
   position: absolute;
   top: 0;
@@ -67,7 +69,7 @@
   background-color: #f2f2f2;
 }
 .hdr {
-  padding: 51px 86px 16px 0;
+  padding: 56px 84px 16px 0;
   border-top-right-radius: 87px;
 }
 .sec2 .hdr-container .mar-style {
@@ -77,12 +79,18 @@
   max-width: 1601px;
 }
 @media only screen and (max-width: 960px) {
+  .sec2--container .l-wrap {
+    margin: unset;
+  }
+  .sec2 .contnr {
+    padding-top: 30px;
+  }
   .sec2 .component--hdng-ttll {
     font-size: 20px;
     line-height: 33px;
   }
   .hdr {
-    padding: 24px 33px 9px 0;
+    padding: 26px 25px 9px 0;
     border-top-right-radius: 45px;
   }
   .sec2--container .l-wrap {
@@ -90,19 +98,21 @@
   }
   .sec2--container .wrapperContainer {
     width: 100%;
+    padding: 0 0 32px;
+    /* padding-bottom: 32px; */
   }
   .sec2--container .wrapper .tittle--text h1 {
     font-size: 20px;
     line-height: 33px;
-    padding-bottom: 35px;
+    padding-bottom: 18px;
   }
   .sec2--container .detail-box p {
     font-size: 16px;
     line-height: 31px;
-    padding-bottom: 39px;
+    padding-bottom: 29px;
   }
   .sec2--container .wrapper {
-    padding: 38px 24px 0px;
+    padding: 31px 24px 0px;
   }
 }
 /* end section 2 */
