@@ -359,6 +359,9 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  .header--menu .menu li {
+    padding-right: 35px;
+  }
   .header--menu .menu li a {
     font-size: 18px;
   }
