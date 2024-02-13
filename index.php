@@ -43,38 +43,20 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
           <a href="index.php"><img src="/images/common/logo.svg" alt="" /></a>
         </div>
         <div class="header--right">
-          <a href="#sec12" class="header--request">
-            <p class="header--request__txt">資料請求・無料体験</p>
-          </a>
           <div class="header--menu">
-            <a href="" class="header--menu__btn">
-              <figure>
-                <img src="/images/common/burger_button.svg" alt="" />
-              </figure>
-            </a>
-            <div class="header--ham_menu">
-              <div class="header--ham_menu__container">
-                <a href="" class="close-btn">
-                  <img src="/images/common/burger_button2.svg" alt="" />
-                </a>
-                <div class="close-btn__center">
-                  <ul>
-                    <li><a href="index.php">TOP</a></li>
-                    <li><a href="#sec03">プログラミングで身につく力</a></li>
-                    <li><a href="#sec06">バレッドキッズの3つの特徴</a></li>
-                    <li><a href="#sec08">コース紹介</a></li>
-                    <li><a href="#sec10">受講した保護者の声</a></li>
-                    <li><a href="#sec11">よくある質問</a></li>
-                    <li><a href="#sec13">教室一覧</a></li>
-                  </ul>
-                  <a href="#sec12" class="header--request">
-                    <p>資料請求・無料体験</p>
-                  </a>
-                </div>
-              </div>
-              <div class="bg-overlay"></div>
-            </div>
+            <nav>
+              <ul class="menu">
+                <li><a href="#">解決できること</a></li>
+                <li><a href="#">選ばれる理由</a></li>
+                <li><a href="#">ご利用までの流れ</a></li>
+                <li><a href="#">お客様の声</a></li>
+                <li><a href="#">よくある質問</a></li>
+              </ul>
+            </nav>
           </div>
+          <a href="" class="Hcontact">
+            <img src="/images/common/Hcontact.png" alt="">
+          </a>
         </div>
       </div>
     </div>
@@ -396,8 +378,18 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
   </main>
 
   <footer class="bg_ft">
-    <div>
-      <p>Copyright © 2023 VALED All Rights Reserved.</p>
+    <div class="mar-style">
+      <div class="footer--container">
+        <div class="footer--des">
+          <p class="p1">© GlobalCast Co.,Ltd. All Rights Reserved. </p>
+          <div class="info--container">
+            <div class="info">
+              <p class="info--p">運営会社</p>
+              <p class="info--p1">プライバシー・ポリシー</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
 
