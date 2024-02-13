@@ -42,7 +42,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . "/contact/send_functions.ph
         <header class="page__top">
             <?php includeWithVariables('./includes/header.php'); ?>
             <div class="">
-                <section id="sec12" class="confirmPage">
+                <section id="sec9" class="confirmPage">
                     <div class="contactWrapper">
                         <div class="bdr-radius">
                             <?php
