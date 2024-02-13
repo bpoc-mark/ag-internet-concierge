@@ -40,17 +40,17 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
     <div class="header--wrap">
       <div class="header--container">
         <div class="header--left">
-          <a href="index.php"><img src="/images/common/logo.svg" alt="" /></a>
+          <a href="/"><img src="/images/common/logo.svg" alt="" /></a>
         </div>
         <div class="header--right">
           <div class="header--menu">
             <nav>
               <ul class="menu">
-                <li><a href="#">解決できること</a></li>
-                <li><a href="#">選ばれる理由</a></li>
-                <li><a href="#">ご利用までの流れ</a></li>
-                <li><a href="#">お客様の声</a></li>
-                <li><a href="#">よくある質問</a></li>
+                <li><a href="#sec2">解決できること</a></li>
+                <li><a href="#sec3">選ばれる理由</a></li>
+                <li><a href="#sec5">ご利用までの流れ</a></li>
+                <li><a href="#sec6">お客様の声</a></li>
+                <li><a href="#sec7">よくある質問</a></li>
               </ul>
             </nav>
           </div>
@@ -65,10 +65,10 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
   <!-- コンテンツを記述 -->
   <main>
     <div class="contents">
-      <section class="sec1">
+      <section class="sec1" id="sec1">
         <!-- <h1 style="font-family: LineSeedBold; font-size: 70px;">インターネットの<br>わからないを解決します。</h1> -->
       </section>
-      <section class="sec2">
+      <section class="sec2" id="sec2">
         <div class="hdr-container">
           <div class="mar-style">
             <div class="hdr">
@@ -128,7 +128,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
           </div>
         </div>
       </section>
-      <section class="sec3">
+      <section class="sec3" id="sec3">
         <div class="mar-style">
           <h3 class="component--hdng-ttl">ネット回線コンシェルジュが<br class="sp">選ばれる<span>4</span>つの理由</h3>
           <ul>
@@ -221,7 +221,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
           </div>
         </div>
       </section>
-      <section class="sec5">
+      <section class="sec5" id="sec5">
         <div class="mar-style">
           <div class="sec5-container">
             <div class="sec5-title">
@@ -295,7 +295,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
           </div>
         </div>
       </section>
-      <section class="sec6">
+      <section class="sec6" id="sec6">
 
       </section>
       <section id="sec7" class="sec7">
@@ -422,8 +422,8 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
           <p class="p1">© GlobalCast Co.,Ltd. All Rights Reserved. </p>
           <div class="info--container">
             <div class="info">
-              <p class="info--p">運営会社</p>
-              <p class="info--p1">プライバシー・ポリシー</p>
+              <p class="info--p"><a href="https://global-cast.co.jp/privacypolicy/" target="_blank" style="color: #fff;">運営会社</a></p>
+              <p class="info--p1"><a href="https://global-cast.co.jp/" target="_blank" style="color: #fff;">プライバシー・ポリシー</a></p>
             </div>
           </div>
         </div>

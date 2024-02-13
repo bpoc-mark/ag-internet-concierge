@@ -202,7 +202,7 @@ if (!isset($step)) $step = "input";
                         
                         <?php if (isset($step) && $step == 'input') : ?>                  
                             <div class="privacyWrap">
-                                <p><a href="">※プライバシーポリシー</a>をご確認いただき、同意の上でお進みください。<br>※電話番号にSMSが届きます。予めご了承ください。</p>
+                                <p><a href="https://global-cast.co.jp/privacy-policy/" target="_blank">※プライバシーポリシー</a>をご確認いただき、同意の上でお進みください。<br>※電話番号にSMSが届きます。予めご了承ください。</p>
                             </div>
                         <?php endif; ?>   
 

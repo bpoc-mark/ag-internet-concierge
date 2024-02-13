@@ -4,7 +4,7 @@
   <div class="header--wrap">
     <div class="header--container">
       <div class="header--left">
-        <a href="index.php"><img src="/images/common/logo.svg" alt="" /></a>
+        <a href="/"><img src="/images/common/logo.svg" alt="" /></a>
       </div>
       <div class="header--right">
         <div class="header--menu">
