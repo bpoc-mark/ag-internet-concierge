@@ -221,6 +221,148 @@
 }
 }
 
+/* SECTION 6 */
+
+.sec6 {
+  padding: 120px 0 150px;
+  background-color: #F2F2F2;
+}
+.card--container{
+  display: flex;
+  background-color: #FFFFFF;
+  padding: 35px 35px 40px 40px;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.swiper {
+  margin-top: 100px;
+}
+
+.swiper-slide {
+}
+.swiper-slide .triangle img {
+  width: 56px;
+  height: 40px;
+  position: relative;
+  margin-top: -7px;
+  left: 45%;
+}
+
+.card--container .left-card {
+  border-right: 1px solid #C8DBD3;
+  padding-right: 35px;
+  width: 35%;
+}
+.card--container .left-card .circle {
+}
+
+.card--container .left-card .circle img {
+  height: 100%;
+  width: 100%;
+}
+
+.circle-message {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.circle-message p {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 23px;
+  font-family: LineSeedBold;
+}
+
+.right-card {
+  width: 65%;
+  padding-left: 40px;
+}
+
+.right-card h2 {
+  font-size: 24px;
+  color: #1A6C49;
+  line-height: 47px;
+  font-family: LineSeedBold;
+}
+.right-card p {
+  font-size: 17px;
+  line-height: 33px;
+  font-family: LineSeedRegular;
+}
+
+@media screen and (max-width: 961px) {
+  .card--container {
+    display: flex;
+    flex-direction: column;
+      background-color: #FFFFFF;
+      padding: 15px 15px 15px 15px;
+      border-radius: 30px;
+      width: 100%;
+  
+}
+
+.card--container .left-card {
+  border-right: none;
+  padding-right: 0;
+  display: flex;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #C8DBD3;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.card--container .left-card .circle {
+  width: 50%;
+}
+
+.card--container .left-card .circle img {
+  height: 100%;
+  width: 100%;
+}
+
+.circle-message {
+  padding-left: 0;
+}
+
+.circle-message p {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 23px;
+  padding-left: 0;
+}
+
+.right-card {
+  margin-left: 0;
+  text-align: left;
+  padding-left: 0;
+  width: 100%;
+}
+
+.right-card h2 {
+  font-size: 18px;
+  line-height: 31px;
+  padding-top: 25px;
+}
+
+.right-card p {
+  font-size: 15px;
+  padding-top: 15px;
+  line-height: 30px;
+}
+
+.swiper-slide .triangle img {
+  left: 40%;
+}
+}
+
+
+
+
+
+
 /* SECTION 11  */
 .sec7 {
   background-color: #f4f4f4;

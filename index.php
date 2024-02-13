@@ -12,6 +12,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
   <meta name="format-detection" content="telephone=no" />
 
   <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
   <!-- ogp -->
   <!-- ogp -->
@@ -238,7 +239,103 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
         </div>
       </section>
       <section class="sec6">
-
+        <div>
+          <div>
+              <h2 class="component--hdng-ttl">お客様の声</h2>
+            </div>
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card--container">
+                    <div class="left-card">
+                        <div class="circle">
+                          <img src="images/sec6/circle.png" alt="" />
+                        </div>
+                        <div class="circle-message">
+                          <p class="description">愛知県名古屋市北区<br>
+                            集合住宅にお住まい</p>
+                          <p class="tag">Hさん</p>
+                        </div>
+                    </div>
+                    <div class="right-card">
+                      <h2>料金が格段に安くなりました！</h2>
+                      <p>ケーブル会社のインターネットを利用していましたが月額料金が高いのではと気になっていました。
+                          相談してもっと安くて安定したインターネットを紹介して頂き月額が２０００円近く安くなりました。</p>
+                    </div>
+                  </div>
+                  <div class="triangle">
+                    <img src="images/sec6/triangle.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card--container">
+                    <div class="left-card">
+                        <div class="circle">
+                          <img src="images/sec6/circle.png" alt="" />
+                        </div>
+                        <div class="circle-message">
+                          <p class="description">静岡県田方郡<br>
+                          函南町戸建てにお住まい</p>
+                          <p class="tag">Tさん</p>
+                        </div>
+                    </div>
+                    <div class="right-card">
+                      <h2>設定がうまくいきました。</h2>
+                      <p>初めてのインターネットだったのでとにかく設定がうまくいかずに悩んでいました。
+                          家族も遠くにいる一人暮らしの身なので相談させてもらって大変助かりました。</p>
+                    </div>
+                  </div>
+                  <div class="triangle">
+                    <img src="images/sec6/triangle.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-slide"> 
+                  <div class="card--container">
+                    <div class="left-card">
+                        <div class="circle">
+                          <img src="images/sec6/circle.png" alt="" />
+                        </div>
+                        <div class="circle-message">
+                          <p class="description">三重県四日市<br>
+                          市戸建てにお住い</p>
+                          <p class="tag">Iさん</p>
+                        </div>
+                    </div>
+                    <div class="right-card">
+                      <h2>速度が速くなり感謝です！</h2>
+                      <p>工事不要のインターネットを利用しておりましたが速度に不満がありました！家族が４人いるのですが夜になると全くと言っていいほど速度が安定しません。
+                        相談させていただきもっと安くて安定した光回線を紹介して頂き大変満足しています！担当の方もとても親切に対応していただきました。</p>
+                    </div>
+                  </div>
+                  <div class="triangle">
+                    <img src="images/sec6/triangle.png" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card--container">
+                    <div class="left-card">
+                        <div class="circle">
+                          <img src="images/sec6/circle.png" alt="" />
+                        </div>
+                        <div class="circle-message">
+                          <p class="description">岐阜県岐阜市<br>
+                          集合住宅にお住まい</p>
+                          <p class="tag">Wさん</p>
+                        </div>
+                    </div>
+                    <div class="right-card">
+                      <h2>自分の環境に合った提案をしてくれます！</h2>
+                      <p>自分の携帯のキャリアとエリアなどから最もお得で快適なインターネットを紹介していただきました。
+                        工事後でも丁寧にサポートして頂き本当に感謝しております。有難うございました！</p>
+                    </div>
+                  </div>
+                  <div class="triangle">
+                    <img src="images/sec6/triangle.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
       </section>
       <section id="sec7" class="sec7">
         <div class="mar-style">
@@ -382,11 +479,30 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="js/common.js" defer></script>
   <script>
+    $(".swiper-slide .card--container").matchHeight();
+
     AOS.init({
       once: true,
     });
+
+    const swiper = new Swiper('.swiper', {
+    slidesPerView: 1.3,
+    spaceBetween: 25,
+    loop: true,
+    autoHeight: true,
+    centeredSlides: true,
+    breakpoints: {
+
+      960: {
+        slidesPerView: 2.35,
+        spaceBetween: 45,
+      }
+
+    }
+  });
   </script>
 
 </body>
