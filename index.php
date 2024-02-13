@@ -54,7 +54,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
               </ul>
             </nav>
           </div>
-          <a href="" class="Hcontact">
+          <a href="tel:0120-716-715" class="Hcontact">
             <img src="/images/common/Hcontact.png" alt="">
           </a>
         </div>
@@ -207,14 +207,14 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <img class="pcH1W" src="/images/common/h1W.png" alt="">
               </div>
             </div>
-            <a href="#" class="text-title2">
+            <a href="tel:0120-716-715" class="text-title2">
               <img class="con-sp" src="/images/common/contactimgW.png" alt="">
             </a>
             <div class="buttons">
-              <a class="btn green">
+              <a href="https://page.line.me/?liff.state=%3FaccountId%3D344sanfa" target="_blank" class="btn green">
                 <p>LINEから相談する</p><img class="arrow" src="/images/common/arrowB.png" alt="">
               </a>
-              <a class="btn yellow">
+              <a href="#contactSect" class="btn yellow">
                 <p>Webから相談する</p><img class="arrow" src="/images/common/arrowB.png" alt="">
               </a>
             </div>
@@ -393,14 +393,14 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <img class="pcH1W" src="/images/common/h1W.png" alt="">
               </div>
             </div>
-            <a href="#" class="text-title2">
+            <a href="tel:0120-716-715" class="text-title2">
               <img class="con-sp" src="/images/common/contactimgW.png" alt="">
             </a>
             <div class="buttons">
-              <a class="btn green">
+              <a href="https://page.line.me/?liff.state=%3FaccountId%3D344sanfa" target="_blank" class="btn green">
                 <p>LINEから相談する</p><img class="arrow" src="/images/common/arrowB.png" alt="">
               </a>
-              <a class="btn yellow">
+              <a href="#contactSect" class="btn yellow">
                 <p>Webから相談する</p><img class="arrow" src="/images/common/arrowB.png" alt="">
               </a>
             </div>
