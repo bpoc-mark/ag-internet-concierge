@@ -306,14 +306,14 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <div>
                   <span>Ｑ.</span>
                   <p>
-                    どういうお子さんが学んでいるの？
+                  相談したら何か売りつけられない？
                   </p>
                 </div>
                 <img src="/images/common/arrow_icon_up.png" alt="">
               </a>
               <div class="sec7--drop-down">
                 <p>
-                  <span>A.</span>年中～高校３年生までの方が学んでいらっしゃいます。長く通っている方では、６年以上継続している方もいます。プログラミングやパソコンの基礎から応用、検定取得までできるので、着実にレベルアップを目指していただけます。
+                  <span>A.</span>ネット回線コンシェルジュはあくまでも相談の場を設けている相談窓口です。<br>強引に乗り換えをお勧めすることはありません。
                 </p>
               </div>
             </div>
@@ -322,14 +322,14 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <div>
                   <span>Ｑ.</span>
                   <p>
-                    未経験で家にもパソコンがないけど大丈夫なの？
+                  相談は本当に無料？
                   </p>
                 </div>
                 <img src="/images/common/arrow_icon_up.png" alt="">
               </a>
               <div class="sec7--drop-down">
                 <p>
-                  <span>A.</span>教室では週１・２回、各５０分ひとり１台のパソコンを使って練習しますので、その中でしっかりスキルアップしていきます。また、宿題なども出しませんので、ご自宅にパソコンがなくても大丈夫ですので、ご安心ください。
+                  <span>A.</span>ネット回線コンシェルジュはあくまでも相談の場を設けている相談窓口です。<br>強引に乗り換えをお勧めすることはありません。
                 </p>
               </div>
             </div>
@@ -338,14 +338,14 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <div>
                   <span>Ｑ.</span>
                   <p>
-                    他のプログラミング教室何が違うの？
+                  どこで相談するの？
                   </p>
                 </div>
                 <img src="/images/common/arrow_icon_up.png" alt="">
               </a>
               <div class="sec7--drop-down">
                 <p>
-                  <span>A.</span>プログラミングに加え、タイピングやパソコンの操作や知識も併せて総合的に学べます。将来、どんな職業についても必要な総合的なスキルをバランスよく育みます。
+                  <span>A.</span>ネット回線コンシェルジュはあくまでも相談の場を設けている相談窓口です。<br>強引に乗り換えをお勧めすることはありません。
                 </p>
               </div>
             </div>
@@ -354,14 +354,14 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <div>
                   <span>Ｑ.</span>
                   <p>
-                    無料体験は何ができるの？費用は一切かからないの？
+                  相談の所要時間はどのくらい？
                   </p>
                 </div>
                 <img src="/images/common/arrow_icon_up.png" alt="">
               </a>
               <div class="sec7--drop-down">
                 <p>
-                  <span>A.</span>プログラミングとパソコン操作の両方の要素が入った課題で体験ができます。費用は一切かかりませんので、お気軽に無料体験をご予約ください。
+                  <span>A.</span>ネット回線コンシェルジュはあくまでも相談の場を設けている相談窓口です。<br>強引に乗り換えをお勧めすることはありません。
                 </p>
               </div>
             </div>
@@ -370,48 +370,14 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <div>
                   <span>Ｑ.</span>
                   <p>
-                    入会するタイミングは？いつでもできるの？
+                  きちんとした窓口なのか？信用していいのか？
                   </p>
                 </div>
                 <img src="/images/common/arrow_icon_up.png" alt="">
               </a>
               <div class="sec7--drop-down">
                 <p>
-                  <span>A.</span>空席のところであれば、何月からでも、月途中からでもご入会いただけます。
-                </p>
-              </div>
-            </div>
-            <div class="sec7--container">
-              <a href="" class="sec7--drop-button">
-                <div>
-                  <span>Ｑ.</span>
-                  <p>
-                    １回の授業は何分？月何回通うの？
-                  </p>
-                </div>
-                <img src="/images/common/arrow_icon_up.png" alt="">
-              </a>
-              <div class="sec7--drop-down">
-                <p>
-                  <span>A.</span>１回の授業は５０分です。コースによって、月４回～８回受講いただけます。<br>
-                  ＊教室の授業カレンダーにより回数が変動する月もございます
-
-                </p>
-              </div>
-            </div>
-            <div class="sec7--container">
-              <a href="" class="sec7--drop-button">
-                <div>
-                  <span>Ｑ.</span>
-                  <p>
-                    人気のコースを教えてください。
-                  </p>
-                </div>
-                <img src="/images/common/arrow_icon_up.png" alt="">
-              </a>
-              <div class="sec7--drop-down">
-                <p>
-                  <span>A.</span>総合的に学べる、PC-ICT+ロジカコースが人気です。プログラミングでは、子どもむけのビジュアル言語から、一般的なテキスト言語、パソコンではタイピングからオフィス操作、検定取得までお子様のスキルを育むカリキュラムです。
+                  <span>A.</span>ネット回線コンシェルジュはあくまでも相談の場を設けている相談窓口です。<br>強引に乗り換えをお勧めすることはありません。
                 </p>
               </div>
             </div>
@@ -442,7 +408,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
   <script src="js/common.js" defer></script>
   <script>
     $('.sec2 .wrapper').matchHeight();
-    
+
     AOS.init({
       once: true,
     });
