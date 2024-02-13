@@ -67,8 +67,53 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
   <!-- コンテンツを記述 -->
   <main>
     <div class="contents">
-      <section class="sec1" id="sec1">
-        <!-- <h1 style="font-family: LineSeedBold; font-size: 70px;">インターネットの<br>わからないを解決します。</h1> -->
+      <section class="sec1">
+        <div class="sec1--container">
+          <div class="mar-style">
+            <div class="l-wrap">
+              <div class="datails-box">
+                <div data-aos="fade-up">
+                  <h1>インターネットの<br><span class="green">わからない</span>を<br class="brH">解決します。</h1>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="100">
+                  <p class="ptext">当サイトは「インターネットのプロが親身に」をテーマに、<br class="brP">あらゆるインターネットの悩みを解決する無料相談サイトです。</p>
+                </div>
+                <div class="text--box">
+                  <div class="container--box">
+                    <div class="text-title">
+                      <div class="text--tittle-img">
+                        <img class="pcH1B" src="/images/common/h1B.png" alt="">
+                      </div>
+                    </div>
+                    <a href="tel:+0120716715" class="text-title2">
+                      <img src="/images/common/contactimg.png" alt="">
+                    </a>
+                    <div class="buttons">
+                      <a href="https://page.line.me/?accountId=344sanfa" class="btn green">
+                        <p>LINEから相談する</p><img class="arrow" src="/images/common/arrowB.png" alt="">
+                      </a>
+                      <a href="#contactSect" class="btn yellow">
+                        <p>Webから相談する</p><img class="arrow" src="/images/common/arrowB.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="right">
+                <div class="illu--box">
+                  <div class="illustration-img">
+                    <img class="illusp" src="/images/common/illustrationimg.png" alt="">
+                    <div class="circle-box">
+                      <img src="/images/common/circle1.png" alt="">
+                      <img src="/images/common/circle2.png" alt="">
+                      <img src="/images/common/circle3.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="sec2" id="sec2">
         <div class="hdr-container">
@@ -308,19 +353,19 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
               <div class="swiper-slide">
                 <div class="card--container">
                   <div class="left-card">
-                      <div class="circle">
-                        <img src="images/sec6/circle.png" alt="" />
-                      </div>
-                      <div class="circle-message">
-                        <p class="description">愛知県名古屋市北区<br>
-                          集合住宅にお住まい</p>
-                        <p class="tag">Hさん</p>
-                      </div>
+                    <div class="circle">
+                      <img src="images/sec6/circle.png" alt="" />
+                    </div>
+                    <div class="circle-message">
+                      <p class="description">愛知県名古屋市北区<br>
+                        集合住宅にお住まい</p>
+                      <p class="tag">Hさん</p>
+                    </div>
                   </div>
                   <div class="right-card">
                     <h2>料金が格段に安くなりました！</h2>
                     <p>ケーブル会社のインターネットを利用していましたが月額料金が高いのではと気になっていました。
-                        相談してもっと安くて安定したインターネットを紹介して頂き月額が２０００円近く安くなりました。</p>
+                      相談してもっと安くて安定したインターネットを紹介して頂き月額が２０００円近く安くなりました。</p>
                   </div>
                 </div>
                 <div class="triangle">
@@ -330,36 +375,36 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
               <div class="swiper-slide">
                 <div class="card--container">
                   <div class="left-card">
-                      <div class="circle">
-                        <img src="images/sec6/circle.png" alt="" />
-                      </div>
-                      <div class="circle-message">
-                        <p class="description">静岡県田方郡<br>
+                    <div class="circle">
+                      <img src="images/sec6/circle.png" alt="" />
+                    </div>
+                    <div class="circle-message">
+                      <p class="description">静岡県田方郡<br>
                         函南町戸建てにお住まい</p>
-                        <p class="tag">Tさん</p>
-                      </div>
+                      <p class="tag">Tさん</p>
+                    </div>
                   </div>
                   <div class="right-card">
                     <h2>設定がうまくいきました。</h2>
                     <p>初めてのインターネットだったのでとにかく設定がうまくいかずに悩んでいました。
-                        家族も遠くにいる一人暮らしの身なので相談させてもらって大変助かりました。</p>
+                      家族も遠くにいる一人暮らしの身なので相談させてもらって大変助かりました。</p>
                   </div>
                 </div>
                 <div class="triangle">
                   <img src="images/sec6/triangle.png" alt="" />
                 </div>
               </div>
-              <div class="swiper-slide"> 
+              <div class="swiper-slide">
                 <div class="card--container">
                   <div class="left-card">
-                      <div class="circle">
-                        <img src="images/sec6/circle.png" alt="" />
-                      </div>
-                      <div class="circle-message">
-                        <p class="description">三重県四日市<br>
+                    <div class="circle">
+                      <img src="images/sec6/circle.png" alt="" />
+                    </div>
+                    <div class="circle-message">
+                      <p class="description">三重県四日市<br>
                         市戸建てにお住い</p>
-                        <p class="tag">Iさん</p>
-                      </div>
+                      <p class="tag">Iさん</p>
+                    </div>
                   </div>
                   <div class="right-card">
                     <h2>速度が速くなり感謝です！</h2>
@@ -374,14 +419,14 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
               <div class="swiper-slide">
                 <div class="card--container">
                   <div class="left-card">
-                      <div class="circle">
-                        <img src="images/sec6/circle.png" alt="" />
-                      </div>
-                      <div class="circle-message">
-                        <p class="description">岐阜県岐阜市<br>
+                    <div class="circle">
+                      <img src="images/sec6/circle.png" alt="" />
+                    </div>
+                    <div class="circle-message">
+                      <p class="description">岐阜県岐阜市<br>
                         集合住宅にお住まい</p>
-                        <p class="tag">Wさん</p>
-                      </div>
+                      <p class="tag">Wさん</p>
+                    </div>
                   </div>
                   <div class="right-card">
                     <h2>自分の環境に合った提案をしてくれます！</h2>
@@ -396,14 +441,14 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
               <div class="swiper-slide">
                 <div class="card--container">
                   <div class="left-card">
-                      <div class="circle">
-                        <img src="images/sec6/circle.png" alt="" />
-                      </div>
-                      <div class="circle-message">
-                        <p class="description">岐阜県岐阜市<br>
+                    <div class="circle">
+                      <img src="images/sec6/circle.png" alt="" />
+                    </div>
+                    <div class="circle-message">
+                      <p class="description">岐阜県岐阜市<br>
                         集合住宅にお住まい</p>
-                        <p class="tag">Wさん</p>
-                      </div>
+                      <p class="tag">Wさん</p>
+                    </div>
                   </div>
                   <div class="right-card">
                     <h2>自分の環境に合った提案をしてくれます！</h2>
@@ -422,7 +467,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       <section id="sec7" class="sec7">
         <div class="mar-style">
           <div>
-            <h2 class="component--hdng-ttl"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">よくある質問</h2>
+            <h2 class="component--hdng-ttl" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">よくある質問</h2>
             <div class="sec7--container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <a href="" class="sec7--drop-button">
                 <div>
@@ -577,7 +622,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       freeMode: true,
       autoplay: {
         delay: 3000,
-      },  
+      },
       breakpoints: {
         961: {
           slidesPerView: 1.4,
