@@ -308,19 +308,19 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
               <div class="swiper-slide">
                 <div class="card--container">
                   <div class="left-card">
-                      <div class="circle">
-                        <img src="images/sec6/circle.png" alt="" />
-                      </div>
-                      <div class="circle-message">
-                        <p class="description">愛知県名古屋市北区<br>
-                          集合住宅にお住まい</p>
-                        <p class="tag">Hさん</p>
-                      </div>
+                    <div class="circle">
+                      <img src="images/sec6/circle.png" alt="" />
+                    </div>
+                    <div class="circle-message">
+                      <p class="description">愛知県名古屋市北区<br>
+                        集合住宅にお住まい</p>
+                      <p class="tag">Hさん</p>
+                    </div>
                   </div>
                   <div class="right-card">
                     <h2>料金が格段に安くなりました！</h2>
                     <p>ケーブル会社のインターネットを利用していましたが月額料金が高いのではと気になっていました。
-                        相談してもっと安くて安定したインターネットを紹介して頂き月額が２０００円近く安くなりました。</p>
+                      相談してもっと安くて安定したインターネットを紹介して頂き月額が２０００円近く安くなりました。</p>
                   </div>
                 </div>
                 <div class="triangle">
@@ -330,36 +330,36 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
               <div class="swiper-slide">
                 <div class="card--container">
                   <div class="left-card">
-                      <div class="circle">
-                        <img src="images/sec6/circle.png" alt="" />
-                      </div>
-                      <div class="circle-message">
-                        <p class="description">静岡県田方郡<br>
+                    <div class="circle">
+                      <img src="images/sec6/circle.png" alt="" />
+                    </div>
+                    <div class="circle-message">
+                      <p class="description">静岡県田方郡<br>
                         函南町戸建てにお住まい</p>
-                        <p class="tag">Tさん</p>
-                      </div>
+                      <p class="tag">Tさん</p>
+                    </div>
                   </div>
                   <div class="right-card">
                     <h2>設定がうまくいきました。</h2>
                     <p>初めてのインターネットだったのでとにかく設定がうまくいかずに悩んでいました。
-                        家族も遠くにいる一人暮らしの身なので相談させてもらって大変助かりました。</p>
+                      家族も遠くにいる一人暮らしの身なので相談させてもらって大変助かりました。</p>
                   </div>
                 </div>
                 <div class="triangle">
                   <img src="images/sec6/triangle.png" alt="" />
                 </div>
               </div>
-              <div class="swiper-slide"> 
+              <div class="swiper-slide">
                 <div class="card--container">
                   <div class="left-card">
-                      <div class="circle">
-                        <img src="images/sec6/circle.png" alt="" />
-                      </div>
-                      <div class="circle-message">
-                        <p class="description">三重県四日市<br>
+                    <div class="circle">
+                      <img src="images/sec6/circle.png" alt="" />
+                    </div>
+                    <div class="circle-message">
+                      <p class="description">三重県四日市<br>
                         市戸建てにお住い</p>
-                        <p class="tag">Iさん</p>
-                      </div>
+                      <p class="tag">Iさん</p>
+                    </div>
                   </div>
                   <div class="right-card">
                     <h2>速度が速くなり感謝です！</h2>
@@ -374,14 +374,14 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
               <div class="swiper-slide">
                 <div class="card--container">
                   <div class="left-card">
-                      <div class="circle">
-                        <img src="images/sec6/circle.png" alt="" />
-                      </div>
-                      <div class="circle-message">
-                        <p class="description">岐阜県岐阜市<br>
+                    <div class="circle">
+                      <img src="images/sec6/circle.png" alt="" />
+                    </div>
+                    <div class="circle-message">
+                      <p class="description">岐阜県岐阜市<br>
                         集合住宅にお住まい</p>
-                        <p class="tag">Wさん</p>
-                      </div>
+                      <p class="tag">Wさん</p>
+                    </div>
                   </div>
                   <div class="right-card">
                     <h2>自分の環境に合った提案をしてくれます！</h2>
@@ -396,14 +396,14 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
               <div class="swiper-slide">
                 <div class="card--container">
                   <div class="left-card">
-                      <div class="circle">
-                        <img src="images/sec6/circle.png" alt="" />
-                      </div>
-                      <div class="circle-message">
-                        <p class="description">岐阜県岐阜市<br>
+                    <div class="circle">
+                      <img src="images/sec6/circle.png" alt="" />
+                    </div>
+                    <div class="circle-message">
+                      <p class="description">岐阜県岐阜市<br>
                         集合住宅にお住まい</p>
-                        <p class="tag">Wさん</p>
-                      </div>
+                      <p class="tag">Wさん</p>
+                    </div>
                   </div>
                   <div class="right-card">
                     <h2>自分の環境に合った提案をしてくれます！</h2>
@@ -422,7 +422,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       <section id="sec7" class="sec7">
         <div class="mar-style">
           <div>
-            <h2 class="component--hdng-ttl"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">よくある質問</h2>
+            <h2 class="component--hdng-ttl" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">よくある質問</h2>
             <div class="sec7--container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <a href="" class="sec7--drop-button">
                 <div>
@@ -577,7 +577,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       freeMode: true,
       autoplay: {
         delay: 3000,
-      },  
+      },
       breakpoints: {
         961: {
           slidesPerView: 1.4,
