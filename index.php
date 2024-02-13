@@ -67,8 +67,53 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
   <!-- コンテンツを記述 -->
   <main>
     <div class="contents">
-      <section class="sec1" id="sec1">
-        <!-- <h1 style="font-family: LineSeedBold; font-size: 70px;">インターネットの<br>わからないを解決します。</h1> -->
+      <section class="sec1">
+        <div class="sec1--container">
+          <div class="mar-style">
+            <div class="l-wrap">
+              <div class="datails-box">
+                <div data-aos="fade-up">
+                  <h1>インターネットの<br><span class="green">わからない</span>を<br class="brH">解決します。</h1>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="100">
+                  <p class="ptext">当サイトは「インターネットのプロが親身に」をテーマに、<br class="brP">あらゆるインターネットの悩みを解決する無料相談サイトです。</p>
+                </div>
+                <div class="text--box">
+                  <div class="container--box">
+                    <div class="text-title">
+                      <div class="text--tittle-img">
+                        <img class="pcH1B" src="/images/common/h1B.png" alt="">
+                      </div>
+                    </div>
+                    <a href="tel:+0120716715" class="text-title2">
+                      <img src="/images/common/contactimg.png" alt="">
+                    </a>
+                    <div class="buttons">
+                      <a href="https://page.line.me/?accountId=344sanfa" class="btn green">
+                        <p>LINEから相談する</p><img class="arrow" src="/images/common/arrowB.png" alt="">
+                      </a>
+                      <a href="#contactSect" class="btn yellow">
+                        <p>Webから相談する</p><img class="arrow" src="/images/common/arrowB.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="right">
+                <div class="illu--box">
+                  <div class="illustration-img">
+                    <img class="illusp" src="/images/common/illustrationimg.png" alt="">
+                    <div class="circle-box">
+                      <img src="/images/common/circle1.png" alt="">
+                      <img src="/images/common/circle2.png" alt="">
+                      <img src="/images/common/circle3.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="sec2" id="sec2">
         <div class="hdr-container">
