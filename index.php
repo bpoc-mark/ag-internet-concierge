@@ -574,8 +574,9 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       spaceBetween: 25,
       loop: true,
       centeredSlides: true,
+      freeMode: true,
       autoplay: {
-        delay: 10000,
+        delay: 3000,
       },  
       breakpoints: {
         961: {
