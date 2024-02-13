@@ -4,6 +4,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
 ?>
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -27,6 +28,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
   <meta name="twitter:description" content="" />
   <meta name="twitter:image:src" content="<?= BASEURL; ?>images/ogp.jpg" />
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/common.css">
@@ -227,76 +229,193 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
             <div class="sec5-title">
               <h3>ご利用までの流れ</h3>
             </div>
-            <div class="sec5-box-container ">     
-                <div class="card-container">
-                  <div class="box-green">
-                    <figure>
-                      <img src="images/sec5/box-image.png" alt="box-image" class="box-image"/>
-                    </figure>
+            <div class="sec5-box-container ">
+              <div class="card-container">
+                <div class="box-green">
+                  <figure>
+                    <img src="images/sec5/box-image.png" alt="box-image" class="box-image" />
+                  </figure>
+                </div>
+                <div class="card-message">
+                  <div class="card-title">
+                    <h3><span>1</span>お申し込み</h3>
                   </div>
-                  <div class="card-message">
-                    <div class="card-title">
-                   <h3><span>1</span>お申し込み</h3>
-                    </div>
-                    <div class="card-description">
-                      <p>簡単なフォームにて<br>
-                        情報の入力をします。</p>
-                    </div>
+                  <div class="card-description">
+                    <p>簡単なフォームにて<br>
+                      情報の入力をします。</p>
                   </div>
                 </div>
-                <div class="card-container">
-                  <div class="box-green">
-                    <figure>
-                      <img src="images/sec5/box-image.png" alt="box-image" class="box-image"/>
-                    </figure>
-                  </div>
-                  <div class="card-message">
+              </div>
+              <div class="card-container">
+                <div class="box-green">
+                  <figure>
+                    <img src="images/sec5/box-image.png" alt="box-image" class="box-image" />
+                  </figure>
+                </div>
+                <div class="card-message">
                   <div class="card-title">
-                   <h3><span>2</span>カウンセリング</h3>
-                    </div>
-                    <div class="card-description">
-                      <p>当社スタッフからの<br>連絡を待ちます。</p>
-                    </div>
+                    <h3><span>2</span>カウンセリング</h3>
+                  </div>
+                  <div class="card-description">
+                    <p>当社スタッフからの<br>連絡を待ちます。</p>
                   </div>
                 </div>
-                <div class="card-container">
-                  <div class="box-green">
-                    <figure>
-                      <img src="images/sec5/box-image.png" alt="box-image" class="box-image"/>
-                    </figure>
-                  </div>
-                  <div class="card-message">
+              </div>
+              <div class="card-container">
+                <div class="box-green">
+                  <figure>
+                    <img src="images/sec5/box-image.png" alt="box-image" class="box-image" />
+                  </figure>
+                </div>
+                <div class="card-message">
                   <div class="card-title">
-                   <h3><span>3</span>相談</h3>
-                    </div>
-                    <div class="card-description">
-                      <p>連絡がきたら<br>
+                    <h3><span>3</span>相談</h3>
+                  </div>
+                  <div class="card-description">
+                    <p>連絡がきたら<br>
                       詳細をお伝え下さい。</p>
-                    </div>
                   </div>
                 </div>
-                <div class="card-container">
-                  <div class="box-green">
-                    <figure>
-                      <img src="images/sec5/box-image.png" alt="box-image" class="box-image"/>
-                    </figure>
-                  </div>
-                  <div class="card-message">
+              </div>
+              <div class="card-container">
+                <div class="box-green">
+                  <figure>
+                    <img src="images/sec5/box-image.png" alt="box-image" class="box-image" />
+                  </figure>
+                </div>
+                <div class="card-message">
                   <div class="card-title">
-                   <h3><span>4</span>問題解決</h3>
-                    </div>
-                    <div class="card-description">
-                      <p>相談により問題解決！</p>
-                    </div>
+                    <h3><span>4</span>問題解決</h3>
                   </div>
+                  <div class="card-description">
+                    <p>相談により問題解決！</p>
                   </div>
                 </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <section class="sec6" id="sec6">
-
+        <div>
+          <div class="pc">
+            <h2 class="component--hdng-ttl">お客様の声</h2>
+          </div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card--container">
+                  <div class="left-card">
+                      <div class="circle">
+                        <img src="images/sec6/circle.png" alt="" />
+                      </div>
+                      <div class="circle-message">
+                        <p class="description">愛知県名古屋市北区<br>
+                          集合住宅にお住まい</p>
+                        <p class="tag">Hさん</p>
+                      </div>
+                  </div>
+                  <div class="right-card">
+                    <h2>料金が格段に安くなりました！</h2>
+                    <p>ケーブル会社のインターネットを利用していましたが月額料金が高いのではと気になっていました。
+                        相談してもっと安くて安定したインターネットを紹介して頂き月額が２０００円近く安くなりました。</p>
+                  </div>
+                </div>
+                <div class="triangle">
+                  <img src="images/sec6/triangle.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card--container">
+                  <div class="left-card">
+                      <div class="circle">
+                        <img src="images/sec6/circle.png" alt="" />
+                      </div>
+                      <div class="circle-message">
+                        <p class="description">静岡県田方郡<br>
+                        函南町戸建てにお住まい</p>
+                        <p class="tag">Tさん</p>
+                      </div>
+                  </div>
+                  <div class="right-card">
+                    <h2>設定がうまくいきました。</h2>
+                    <p>初めてのインターネットだったのでとにかく設定がうまくいかずに悩んでいました。
+                        家族も遠くにいる一人暮らしの身なので相談させてもらって大変助かりました。</p>
+                  </div>
+                </div>
+                <div class="triangle">
+                  <img src="images/sec6/triangle.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide"> 
+                <div class="card--container">
+                  <div class="left-card">
+                      <div class="circle">
+                        <img src="images/sec6/circle.png" alt="" />
+                      </div>
+                      <div class="circle-message">
+                        <p class="description">三重県四日市<br>
+                        市戸建てにお住い</p>
+                        <p class="tag">Iさん</p>
+                      </div>
+                  </div>
+                  <div class="right-card">
+                    <h2>速度が速くなり感謝です！</h2>
+                    <p>工事不要のインターネットを利用しておりましたが速度に不満がありました！家族が４人いるのですが夜になると全くと言っていいほど速度が安定しません。
+                      相談させていただきもっと安くて安定した光回線を紹介して頂き大変満足しています！担当の方もとても親切に対応していただきました。</p>
+                  </div>
+                </div>
+                <div class="triangle">
+                  <img src="images/sec6/triangle.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card--container">
+                  <div class="left-card">
+                      <div class="circle">
+                        <img src="images/sec6/circle.png" alt="" />
+                      </div>
+                      <div class="circle-message">
+                        <p class="description">岐阜県岐阜市<br>
+                        集合住宅にお住まい</p>
+                        <p class="tag">Wさん</p>
+                      </div>
+                  </div>
+                  <div class="right-card">
+                    <h2>自分の環境に合った提案をしてくれます！</h2>
+                    <p>自分の携帯のキャリアとエリアなどから最もお得で快適なインターネットを紹介していただきました。
+                      工事後でも丁寧にサポートして頂き本当に感謝しております。有難うございました！</p>
+                  </div>
+                </div>
+                <div class="triangle">
+                  <img src="images/sec6/triangle.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card--container">
+                  <div class="left-card">
+                      <div class="circle">
+                        <img src="images/sec6/circle.png" alt="" />
+                      </div>
+                      <div class="circle-message">
+                        <p class="description">岐阜県岐阜市<br>
+                        集合住宅にお住まい</p>
+                        <p class="tag">Wさん</p>
+                      </div>
+                  </div>
+                  <div class="right-card">
+                    <h2>自分の環境に合った提案をしてくれます！</h2>
+                    <p>自分の携帯のキャリアとエリアなどから最もお得で快適なインターネットを紹介していただきました。
+                      工事後でも丁寧にサポートして頂き本当に感謝しております。有難うございました！</p>
+                  </div>
+                </div>
+                <div class="triangle">
+                  <img src="images/sec6/triangle.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section id="sec7" class="sec7">
         <div class="mar-style">
@@ -307,7 +426,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <div>
                   <span>Ｑ.</span>
                   <p>
-                  相談したら何か売りつけられない？
+                    相談したら何か売りつけられない？
                   </p>
                 </div>
                 <img src="/images/common/arrow_icon_up.png" alt="">
@@ -323,7 +442,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <div>
                   <span>Ｑ.</span>
                   <p>
-                  相談は本当に無料？
+                    相談は本当に無料？
                   </p>
                 </div>
                 <img src="/images/common/arrow_icon_up.png" alt="">
@@ -339,7 +458,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <div>
                   <span>Ｑ.</span>
                   <p>
-                  どこで相談するの？
+                    どこで相談するの？
                   </p>
                 </div>
                 <img src="/images/common/arrow_icon_up.png" alt="">
@@ -355,7 +474,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <div>
                   <span>Ｑ.</span>
                   <p>
-                  相談の所要時間はどのくらい？
+                    相談の所要時間はどのくらい？
                   </p>
                 </div>
                 <img src="/images/common/arrow_icon_up.png" alt="">
@@ -371,7 +490,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <div>
                   <span>Ｑ.</span>
                   <p>
-                  きちんとした窓口なのか？信用していいのか？
+                    きちんとした窓口なのか？信用していいのか？
                   </p>
                 </div>
                 <img src="/images/common/arrow_icon_up.png" alt="">
@@ -408,9 +527,9 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
         </div>
       </section>
       <?php
-        // お問い合わせフォーム
-        require_once DOCROOT . 'contact/send_functions.php';
-        include('./contact/includes/form.php'); ?>
+      // お問い合わせフォーム
+      require_once DOCROOT . 'contact/send_functions.php';
+      include('./contact/includes/form.php'); ?>
     </div>
     <!--/contents-->
   </main>
@@ -431,18 +550,40 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
     </div>
   </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
   <script src="js/common.js" defer></script>
   <script>
     $('.sec2 .wrapper').matchHeight();
+    $(".swiper .swiper-slide .card--container").matchHeight();
 
     AOS.init({
       once: true,
     });
+
+    const swiper = new Swiper('.swiper', {
+      slidesPerView: 1.3,
+      spaceBetween: 25,
+      loop: true,
+      centeredSlides: true,
+      autoplay: {
+        delay: 10000,
+      },  
+      breakpoints: {
+        961: {
+          slidesPerView: 1.4,
+          spaceBetween: 45,
+        },
+        1200: {
+          slidesPerView: 2.35,
+          spaceBetween: 45,
+        }
+      }
+    });
   </script>
 
 </body>
+
 </html>
