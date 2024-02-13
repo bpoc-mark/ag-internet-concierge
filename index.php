@@ -200,7 +200,26 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
         </div>
       </section>
       <section class="secCTA">
-
+        <div class="text--box tb2">
+          <div class="container--box">
+            <div class="text-title">
+              <div class="text--tittle-img">
+                <img class="pcH1W" src="/images/common/h1W.png" alt="">
+              </div>
+            </div>
+            <a href="#" class="text-title2">
+              <img class="con-sp" src="/images/common/contactimgW.png" alt="">
+            </a>
+            <div class="buttons">
+              <a class="btn green">
+                <p>LINEから相談する</p><img class="arrow" src="/images/common/arrowB.png" alt="">
+              </a>
+              <a class="btn yellow">
+                <p>Webから相談する</p><img class="arrow" src="/images/common/arrowB.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="sec5">
         <div class="mar-style">
@@ -367,7 +386,26 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
         </div>
       </section>
       <section class="secCTA">
-
+        <div class="text--box tb2">
+          <div class="container--box">
+            <div class="text-title">
+              <div class="text--tittle-img">
+                <img class="pcH1W" src="/images/common/h1W.png" alt="">
+              </div>
+            </div>
+            <a href="#" class="text-title2">
+              <img class="con-sp" src="/images/common/contactimgW.png" alt="">
+            </a>
+            <div class="buttons">
+              <a class="btn green">
+                <p>LINEから相談する</p><img class="arrow" src="/images/common/arrowB.png" alt="">
+              </a>
+              <a class="btn yellow">
+                <p>Webから相談する</p><img class="arrow" src="/images/common/arrowB.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
       <?php
         // お問い合わせフォーム

@@ -643,6 +643,259 @@
 }
 /* END OF SECTION 7 */
 
+
+/* text box component */
+
+.container--box {
+  max-width: 778px;
+  width: 100%;
+}
+.text--box {
+  background-color: #e7f0ec;
+  border-radius: 37px;
+  padding: 55px 24px 55px;
+  display: flex;
+  justify-content: center;
+}
+.cta {
+  background-color: #1a6c49;
+}
+
+.text--box .text-title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 16px;
+}
+
+.text--box .text-title .text--tittle-img {
+  max-width: 512px;
+}
+.text--box .text-title .h1--white {
+  color: white;
+}
+
+.text--box .text-bg-white {
+  background-color: #ffffff;
+}
+.text--box .text-title2 .text-title2-left {
+  padding: 0 40px;
+}
+.text--box .text-title2 .text-title2-left p {
+  font-size: 27px;
+  font-family: LineSeedBold;
+  line-height: 39px;
+  color: white;
+}
+.text--box .text-title2 .text-title2-left .pblack {
+  color: black;
+}
+.text--box .text-title2 .text-title2-right .img--box {
+  max-width: 437px;
+}
+.text--box .text-title2 .text-title2-right .contactdes {
+  display: flex;
+}
+.text--box .text-title2 .text-title2-right .contactdes .pcontactdes {
+  border-radius: 48px;
+  text-align: center;
+  padding: 9px 21px;
+  font-size: 1rem;
+  font-family: LineSeedBold;
+  line-height: 34px;
+  margin-right: 10px;
+}
+
+.text--box .text-title2 .text-title2-right .contactdes .fadegreen {
+  background-color: #3a906b;
+  color: white;
+}
+.text--box .text-title2 .text-title2-right .contactdes .fadered {
+  background-color: #dd4e34;
+}
+.text-title2 {
+  position: relative;
+}
+.text-title2-right .arrow {
+  position: absolute;
+  width: 9px;
+  height: 17px;
+  top: 50%;
+  right: 25px;
+  transform: translate(-50%, 0);
+}
+
+.buttons {
+  padding-top: 9px;
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+.buttons .btn {
+  text-align: center;
+  border-radius: 48px;
+  padding: 32px 0px;
+  position: relative;
+  box-shadow: 0px 6px 3px rgb(0 0 0 / .08);
+}
+.buttons .btn .arrow {
+  position: absolute;
+  width: 9px;
+  height: 17px;
+  top: 40%;
+  right: 25px;
+  transform: translate(-50%, 0);
+}
+.buttons .btn p {
+  font-size: 1.125;
+  font-family: LineSeedBold;
+  line-height: 28px;
+}
+.buttons .green {
+  background-color: #06c755;
+  max-width: 374px;
+  width: 100%;
+  margin-right: 27px;
+}
+.buttons .yellow {
+  background-color: #fad60e;
+  max-width: 377px;
+  width: 100%;
+}
+
+@media screen and (min-width: 961px) {
+  .l-wrap {
+    align-items: center;
+  }
+  .datails-box {
+    width: 53%;
+  }
+  .sec1 .sec1--container .l-wrap .right {
+    width: 44%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .text--box .text-title .text--tittle-img .pcH1W {
+    content: url("/images/common/spH1W.png");
+    width: 275px;
+  }
+  .text--box .text-title .text--tittle-img .pcH1B {
+    content: url("/images/common/spH1B.png");
+  }
+  .text--box .text-title2 img {
+    content: url("/images/common/spcontactimg.png");
+  }
+  .text--box .text-title2 .con-sp {
+    content: url("/images/common/spcontactimgW.png");
+  }
+
+  .sec1 .illu--box {
+    display: flex;
+    justify-content: center;
+    padding: 24px 45px 43px;
+  }
+  .right .illu--box .illustration-img .circle-box img {
+    max-width: unset;
+    padding: 0 4px;
+    width: calc(100% / 3);
+  }
+  .sec1 .illu--box .circle-box {
+    padding-top: 31px;
+    margin: 0 -4px;
+  }
+  .sec1 .sec1--container .l-wrap .datails-box h1 {
+    font-size: 33px;
+    line-height: 46px;
+  }
+  .sec1 .sec1--container .l-wrap .datails-box h1 .green {
+    font-size: 33px;
+  }
+  .text--box .text-title {
+    padding-bottom: 17px;
+  }
+  .sec1 .sec1--container .l-wrap .datails-box .ptext {
+    font-size: 14px;
+    line-height: 25px;
+    padding-top: 29px;
+    padding-bottom: 40px;
+  }
+  .sec1 .illu--box .illustration-img {
+    max-width: unset;
+  }
+
+  .l-wrap {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+
+  .text--box .text-title2 {
+    flex-direction: column;
+  }
+  .text-title2-left p br {
+    display: none;
+  }
+  .text--box .text-title2 .text-title2-right .contactdes {
+    flex-direction: column;
+  }
+  .text--box .text-title2 .text-title2-left p {
+    font-size: 17px;
+    line-height: 26px;
+    padding-top: 29px;
+  }
+  .text--box .text-title2 .text-title2-right .contactdes .fadegreen1 {
+    margin-bottom: 3px;
+  }
+  .text--box .text-title2 .text-title2-right .img--box {
+    max-width: 241px;
+  }
+  .text--box .text-title2 .text-title2-right .contactdes .pcontactdes {
+    font-size: 16px;
+  }
+  .buttons {
+    padding: 8px 0px;
+  }
+  .buttons .btn p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .buttons .btn {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  .buttons .green {
+    margin-right: unset;
+    margin-bottom: 16px;
+  }
+
+  .text--box {
+    padding: 34px 44px 24px;
+  }
+}
+
+/* text box component */
+
+/* start section secCTA */
+.secCTA {
+  background-color: #1a6c49;
+}
+
+.tb2 {
+  background-color: unset;
+}
+/* end section secCTA */
+
+/* SECTION 9 */
+#sec9{
+  padding-top: 120px;
+}
+@media screen and (max-width: 960px) {
+  #sec9{
+    padding-top: 14px;
+  }
+}
+/* END OF SECTION 9 */
+
 /* CONTACT SECTION */
 
 #contactSect{
