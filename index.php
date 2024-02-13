@@ -73,7 +73,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       <section class="sec2" id="sec2">
         <div class="hdr-container">
           <div class="mar-style">
-            <div class="hdr">
+            <div class="hdr" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <h3 class="component--hdng-ttll">ネット回線コンシェルジュで解決できること</h3>
             </div>
           </div>
@@ -82,7 +82,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
           <div class="mar-style bg">
             <div class="sec2--container">
               <div class="l-wrap">
-                <div class="wrapperContainer">
+                <div class="wrapperContainer" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="400">
                   <div class="wrapper">
                     <div class="tittle--text">
                       <h1>通信トラブル、速度が遅い、<br>
@@ -93,7 +93,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                     </div>
                   </div>
                 </div>
-                <div class="wrapperContainer">
+                <div class="wrapperContainer" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500">
                   <div class="wrapper">
                     <div class="tittle--text">
                       <h1>高額請求や、勧誘電話の対処、開通後、<br>開通前の解約、契約のキャンセル</h1>
@@ -103,7 +103,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                     </div>
                   </div>
                 </div>
-                <div class="wrapperContainer">
+                <div class="wrapperContainer" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="600">
                   <div class="wrapper">
                     <div class="tittle--text">
                       <h1>あなたにあったベストな<br>
@@ -114,7 +114,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                     </div>
                   </div>
                 </div>
-                <div class="wrapperContainer">
+                <div class="wrapperContainer" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="700">
                   <div class="wrapper">
                     <div class="tittle--text">
                       <h1>回線を変えたが<br>
@@ -132,9 +132,9 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       </section>
       <section class="sec3" id="sec3">
         <div class="mar-style">
-          <h3 class="component--hdng-ttl">ネット回線コンシェルジュが<br class="sp">選ばれる<span>4</span>つの理由</h3>
+          <h3 class="component--hdng-ttl" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">ネット回線コンシェルジュが<br class="sp">選ばれる<span>4</span>つの理由</h3>
           <ul>
-            <li>
+            <li data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <div class="row">
                 <div class="col">
                   <div class="row-ttl">
@@ -150,7 +150,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 </div>
               </div>
             </li>
-            <li>
+            <li data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <div class="row">
                 <div class="col">
                   <div class="row-ttl">
@@ -166,7 +166,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 </div>
               </div>
             </li>
-            <li>
+            <li data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <div class="row">
                 <div class="col">
                   <div class="row-ttl">
@@ -182,7 +182,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 </div>
               </div>
             </li>
-            <li>
+            <li data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <div class="row">
                 <div class="col">
                   <div class="row-ttl">
@@ -204,15 +204,17 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       <section class="secCTA">
         <div class="text--box tb2">
           <div class="container--box">
-            <div class="text-title">
+            <div class="text-title" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <div class="text--tittle-img">
                 <img class="pcH1W" src="/images/common/h1W.png" alt="">
               </div>
             </div>
-            <a href="tel:0120-716-715" class="text-title2">
-              <img class="con-sp" src="/images/common/contactimgW.png" alt="">
-            </a>
-            <div class="buttons">
+            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
+              <a href="tel:0120-716-715" class="text-title2">
+                <img class="con-sp" src="/images/common/contactimgW.png" alt="">
+              </a>
+            </div>
+            <div class="buttons" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <a href="https://page.line.me/?liff.state=%3FaccountId%3D344sanfa" target="_blank" class="btn green">
                 <p>LINEから相談する</p><img class="arrow" src="/images/common/arrowB.png" alt="">
               </a>
@@ -226,11 +228,11 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       <section class="sec5" id="sec5">
         <div class="mar-style">
           <div class="sec5-container">
-            <div class="sec5-title">
+            <div class="sec5-title" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <h3>ご利用までの流れ</h3>
             </div>
             <div class="sec5-box-container ">
-              <div class="card-container">
+              <div class="card-container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
                 <div class="box-green">
                   <figure>
                     <img src="images/sec5/box-image.png" alt="box-image" class="box-image" />
@@ -246,7 +248,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                   </div>
                 </div>
               </div>
-              <div class="card-container">
+              <div class="card-container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="400">
                 <div class="box-green">
                   <figure>
                     <img src="images/sec5/box-image.png" alt="box-image" class="box-image" />
@@ -261,7 +263,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                   </div>
                 </div>
               </div>
-              <div class="card-container">
+              <div class="card-container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500">
                 <div class="box-green">
                   <figure>
                     <img src="images/sec5/box-image.png" alt="box-image" class="box-image" />
@@ -277,7 +279,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                   </div>
                 </div>
               </div>
-              <div class="card-container">
+              <div class="card-container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="600">
                 <div class="box-green">
                   <figure>
                     <img src="images/sec5/box-image.png" alt="box-image" class="box-image" />
@@ -298,10 +300,10 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       </section>
       <section class="sec6" id="sec6">
         <div>
-          <div class="pc">
+          <div class="pc" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
             <h2 class="component--hdng-ttl">お客様の声</h2>
           </div>
-          <div class="swiper">
+          <div class="swiper" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="card--container">
@@ -419,9 +421,9 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       </section>
       <section id="sec7" class="sec7">
         <div class="mar-style">
-          <div data-aos="fade-up" data-aos-anchor-placement="top-center">
-            <h2 class="component--hdng-ttl" data-aos="fade-up" data-aos-anchor-placement="top-center">よくある質問</h2>
-            <div class="sec7--container">
+          <div>
+            <h2 class="component--hdng-ttl"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">よくある質問</h2>
+            <div class="sec7--container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <a href="" class="sec7--drop-button">
                 <div>
                   <span>Ｑ.</span>
@@ -437,7 +439,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 </p>
               </div>
             </div>
-            <div class="sec7--container">
+            <div class="sec7--container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <a href="" class="sec7--drop-button">
                 <div>
                   <span>Ｑ.</span>
@@ -453,7 +455,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 </p>
               </div>
             </div>
-            <div class="sec7--container">
+            <div class="sec7--container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <a href="" class="sec7--drop-button">
                 <div>
                   <span>Ｑ.</span>
@@ -469,7 +471,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 </p>
               </div>
             </div>
-            <div class="sec7--container">
+            <div class="sec7--container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <a href="" class="sec7--drop-button">
                 <div>
                   <span>Ｑ.</span>
@@ -485,7 +487,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 </p>
               </div>
             </div>
-            <div class="sec7--container">
+            <div class="sec7--container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <a href="" class="sec7--drop-button">
                 <div>
                   <span>Ｑ.</span>
@@ -507,15 +509,17 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       <section class="secCTA">
         <div class="text--box tb2">
           <div class="container--box">
-            <div class="text-title">
+            <div class="text-title" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <div class="text--tittle-img">
                 <img class="pcH1W" src="/images/common/h1W.png" alt="">
               </div>
             </div>
-            <a href="tel:0120-716-715" class="text-title2">
-              <img class="con-sp" src="/images/common/contactimgW.png" alt="">
-            </a>
-            <div class="buttons">
+            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
+              <a href="tel:0120-716-715" class="text-title2">
+                <img class="con-sp" src="/images/common/contactimgW.png" alt="">
+              </a>
+            </div>
+            <div class="buttons" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <a href="https://page.line.me/?liff.state=%3FaccountId%3D344sanfa" target="_blank" class="btn green">
                 <p>LINEから相談する</p><img class="arrow" src="/images/common/arrowB.png" alt="">
               </a>
@@ -526,10 +530,12 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
           </div>
         </div>
       </section>
-      <?php
-      // お問い合わせフォーム
-      require_once DOCROOT . 'contact/send_functions.php';
-      include('./contact/includes/form.php'); ?>
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
+        <?php
+        // お問い合わせフォーム
+        require_once DOCROOT . 'contact/send_functions.php';
+        include('./contact/includes/form.php'); ?>
+      </div>
     </div>
     <!--/contents-->
   </main>
