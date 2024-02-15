@@ -225,7 +225,7 @@ if (!isset($step)) $step = "input";
                     <?php
                     else : ?>   
                         <p id="btnArrowIcon" style="width:fit-content;margin:0 auto;">
-                            <input class="btn" type="submit" value="入力内容を確認" style="cursor: pointer;margin: 0 auto;" />
+                            <input class="btn" type="submit" value="内容を確認する" style="cursor: pointer;margin: 0 auto;" />
                             <img src="<?=BASEURL;?>/images/common/arrow_icon.svg" alt="">
                             <!-- <?php if (!empty($_SESSION['ERROR'])) : ?>
                     <div class="mar-t10 c-error" style="text-align:center;">
