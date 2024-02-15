@@ -29,17 +29,17 @@
   padding-bottom: 112px;
 }
 .datails-box {
-  padding: 50px 0;
+  padding: 7em 0;
 }
 .sec1 .sec1--container .l-wrap .datails-box h1 {
-  font-size: 71px;
+  font-size: 3.8vw;
   font-family: LineSeedBold;
-  line-height: 98px;
+  line-height: 7vw;
 }
 
 .sec1 .sec1--container .l-wrap .datails-box h1 .green {
   color: #1a6c49;
-  font-size: 4.438rem;
+  font-size: 3.8vw;
 }
 .sec1 .sec1--container .l-wrap .datails-box .ptext {
   font-size: 21px;
@@ -230,7 +230,7 @@
   }
   .text--box .text-title .text--tittle-img .pcH1B {
     content: url("/images/common/spH1B.png");
-    width: 275px;
+    max-width: 275px;
   }
   .text--box .text-title2 img {
     content: url("/images/common/spcontactimg.png");
@@ -246,6 +246,7 @@
   }
   .datails-box {
     padding: 24px 24px 64px;
+    width: 100%;
   }
   .sec1--container .mar-style {
     width: 100%;
@@ -255,6 +256,7 @@
   }
   .sec1--container .right {
     position: relative;
+    width: 100%;
   }
   .sec1--container .right::after {
     content: "";
@@ -358,7 +360,16 @@
     padding: 34px 24px 24px;
   }
 }
-
+@media screen and (min-width: 1835px){
+  .sec1 .sec1--container .l-wrap .datails-box h1{
+    font-size: 4.37em;
+    line-height: 98px;
+    letter-spacing: 4.5px;
+  }
+  .sec1 .sec1--container .l-wrap .datails-box h1 .green{
+    font-size: inherit;
+  }
+}
 /* text box component */
 
 /* start section 2 */
@@ -432,8 +443,10 @@
 
 .sec2 .contnr {
   padding-top: 80px;
-  padding-bottom: 56px;
   background-color: #f2f2f2;
+}
+.sec2--container .l-wrap {
+  padding-bottom: 55px;
 }
 
 .hdr {
@@ -450,12 +463,14 @@
 }
 @media only screen and (max-width: 960px) {
   .sec2--container .l-wrap {
+    padding-bottom: 32px;
+  }
+  .sec2--container .l-wrap {
     margin: unset;
   }
 
   .sec2 .contnr {
     padding-top: 40px;
-    padding-bottom: 32px;
   }
 
   .sec2 .component--hdng-ttll {
