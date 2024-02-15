@@ -34,7 +34,7 @@
 .sec1 .sec1--container .l-wrap .datails-box h1 {
   font-size: 3.8vw;
   font-family: LineSeedBold;
-  line-height: 7vw;
+  line-height: 6vw;
 }
 
 .sec1 .sec1--container .l-wrap .datails-box h1 .green {
@@ -289,9 +289,11 @@
   .sec1 .sec1--container .l-wrap .datails-box h1 {
     font-size: 33px;
     line-height: 46px;
+    letter-spacing: 0.7vw;
   }
   .sec1 .sec1--container .l-wrap .datails-box h1 .green {
     font-size: 33px;
+    letter-spacing: 0.7vw;
   }
   .text--box .text-title {
     padding-bottom: 17px;
@@ -971,11 +973,15 @@
     clip-path: ellipse(57% 60px at 50% 100%);
   }
 
+  .sec6 .swiper-wrapper{
+    align-items: stretch;
+  }
+
   .card--container {
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
-    padding: 15px 15px 15px 15px;
+    padding: 15px 15px 86px 15px;
     border-radius: 30px;
     width: 100%;
   }
@@ -1104,6 +1110,8 @@
   font-family: LineSeedBold;
   color: #e2c10d;
   padding-right: 14px;
+  position: relative;
+  top: 2px;
 }
 
 .rotate {
@@ -1127,7 +1135,7 @@
 
 @media screen and (max-width: 960px) {
   .sec7 {
-    padding: 45px 0 64px;
+    padding: 5px 0 64px;
   }
 
   .sec7--container a {
@@ -1494,7 +1502,7 @@
 
 @media screen and (max-width: 960px) {
   #sec9 {
-    padding-top: 14px;
+    padding-top: 70px;
   }
 }
 
@@ -2299,6 +2307,10 @@
   transform: translate(0, -50%);
   transition: 0.2s ease-in-out;
 }
+#contactSect input.btn[type="reset"] + img{
+  left: 30px;
+  transform: translate(0, -50%) scaleX(-1);
+}
 
 #contactSect.thanksPage .component--hdng-ttl {
   margin: 0 0 35px 0;
@@ -2342,7 +2354,7 @@
 
   #contactSect.input,
   #contactSect.confirm {
-    padding: 120px 0;
+    padding: 64px 0;
   }
 
   #contactSect .contactSect_inner {
