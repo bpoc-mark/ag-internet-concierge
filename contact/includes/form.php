@@ -212,7 +212,10 @@ if (!isset($step)) $step = "input";
                         <p style="text-align:center;">
                             <input type="hidden" name="token" value="<?= $token; ?>" />
                         <div class="confirmBtnWrap">
-                            <input class="btn" type="reset" value="修正する" style="cursor: pointer;">
+                            <div style="position:relative;">
+                                <input class="btn" type="reset" value="修正する" style="cursor: pointer;">
+                                <img src="<?=BASEURL;?>/images/common/arrow_icon.svg" alt="">
+                            </div>
                             <div style="position:relative;">
                                 <input class="btn" type="submit" value="送信する" style="cursor: pointer;" />
                                 <img src="<?=BASEURL;?>/images/common/arrow_icon.svg" alt="">
