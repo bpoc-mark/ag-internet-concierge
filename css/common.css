@@ -352,15 +352,18 @@
     font-size: 14px;
   }
   .header--wrap {
-    padding-left: 20px;
+    padding-left: 4.5vw;
   }
   .header--menu .menu li {
-    padding-right: 21px;
+    padding-right: 15px;
   }
 }
 @media screen and (min-width: 1200px) {
+  .header--wrap {
+    padding-left: 5em;
+  }
   .header--menu .menu li {
-    padding-right: 35px;
+    padding-right: 20px;
   }
   .header--menu .menu li a {
     font-size: 18px;
