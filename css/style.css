@@ -1037,7 +1037,7 @@
 /* SECTION 11  */
 .sec7 {
   background-color: #fff;
-  padding: 40px 0;
+  padding: 40px 0 120px;
 }
 
 .sec7--container {
@@ -1744,9 +1744,9 @@
 #contactSect input[type="text"]:focus,
 #contactSect input[type="date"]:focus {
   outline: none;
-  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.16) inset;
+  /* box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.16) inset;
   -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.16) inset;
-  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.16) inset;
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.16) inset; */
 }
 
 .confirmBtnWrap {
@@ -1770,13 +1770,13 @@
   border: none;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   padding-bottom: 0;
-  transition: transform 0.2s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 #contactSect input.btn[type="submit"]:hover,
 #contactSect input.btn[type="reset"]:hover,
 .thanksPage .btn:hover {
-  transform: scale(1.03);
+  opacity: .5;
 }
 
 #contactSect input.btn[type="reset"] {
@@ -1786,13 +1786,13 @@
   height: 85px;
   font-size: 20px;
   font-family: LineSeedBold;
-  background-color: #dddddd;
-  color: #37393c;
+  background-color: #6A6A6A;
+  color: #fff;
   border-radius: 43px;
-  border: 2px solid #fff;
+  border: 2px solid #6A6A6A;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   padding-bottom: 0;
-  transition: transform 0.2s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 #contactSect input.sec_07_half {
@@ -1978,9 +1978,9 @@
 
 #contactSect textarea:focus {
   outline: none;
-  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.16) inset;
+  /* box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.16) inset;
   -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.16) inset;
-  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.16) inset;
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.16) inset; */
 }
 
 #contactSect input.contactSect_checkbox {
@@ -2285,10 +2285,11 @@
 }
 
 #contactSect input.btn[type="submit"]:hover + img {
-  right: 15px;
+  opacity: .5;
 }
 
-#contactSect input.btn[type="submit"] + img {
+#contactSect input.btn[type="submit"] + img,
+#contactSect input.btn[type="reset"] + img {
   display: block;
   width: 10px;
   height: 24px;
@@ -2538,7 +2539,7 @@
     font-size: 16px;
   }
 
-  #contactSect input.btn[type="submit"] + img {
+  #contactSect.input input.btn[type="submit"] + img {
     right: 15px;
   }
 
