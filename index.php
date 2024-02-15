@@ -122,8 +122,8 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       <section class="sec2" id="sec2">
         <div class="hdr-container">
           <div class="mar-style">
-            <div class="hdr" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
-              <h3 class="component--hdng-ttll">ネット回線コンシェルジュで解決できること</h3>
+            <div class="hdr">
+              <h3 class="component--hdng-ttll" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">ネット回線コンシェルジュで解決できること</h3>
             </div>
           </div>
         </div>
@@ -623,10 +623,6 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       spaceBetween: 25,
       loop: true,
       centeredSlides: true,
-      freeMode: true,
-      autoplay: {
-        delay: 3000,
-      },
       breakpoints: {
         961: {
           slidesPerView: 1.4,
