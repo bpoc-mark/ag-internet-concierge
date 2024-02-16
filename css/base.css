@@ -91,7 +91,7 @@ footer .mar-style {
 
 footer .footer--des .p1 {
   color: white;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 52px;
   font-family: LineSeedRegular;
 }
@@ -107,6 +107,7 @@ footer .footer--des p {
 
 .footer--des {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .footer--des p {
@@ -121,7 +122,7 @@ footer .footer--des p {
 }
 .info p {
   font-family: LineSeedBold;
-  font-size: 16px;
+  font-size: 1em;
   color: white;
 }
 
@@ -145,11 +146,11 @@ footer .footer--des p {
   }
   footer .info--p {
     text-align: center;
-    font-size: 12px;
+    font-size: 0.75em;
     margin-bottom: 15px;
   }
   footer .info--p1 {
-    font-size: 12px;
+    font-size: 0.75em;
   }
   .info--container {
     display: flex;
