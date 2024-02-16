@@ -8,7 +8,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>バレッドキッズ</title>
+  <title>ネット回線コンシェルジュ</title>
   <meta name="description" content="ページの説明" />
   <meta name="format-detection" content="telephone=no" />
 
@@ -500,7 +500,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
               </a>
               <div class="sec7--drop-down">
                 <p>
-                  <span>A.</span>ネット回線コンシェルジュはあくまでも相談の場を設けている相談窓口です。<br>強引に乗り換えをお勧めすることはありません。
+                  <span>A.</span>何回相談してもインターネット相談は無料です。納得いくまでご相談に乗ります。
                 </p>
               </div>
             </div>
@@ -516,7 +516,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
               </a>
               <div class="sec7--drop-down">
                 <p>
-                  <span>A.</span>ネット回線コンシェルジュはあくまでも相談の場を設けている相談窓口です。<br>強引に乗り換えをお勧めすることはありません。
+                  <span>A.</span>基本的には電話相談となります。<br>ただ、お客様の居住地域等により応相談となります。
                 </p>
               </div>
             </div>
@@ -532,7 +532,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
               </a>
               <div class="sec7--drop-down">
                 <p>
-                  <span>A.</span>ネット回線コンシェルジュはあくまでも相談の場を設けている相談窓口です。<br>強引に乗り換えをお勧めすることはありません。
+                  <span>A.</span>１０分〜２０分くらいが目安となっております。<br>１〜２時間相談される方もおりますがお客様の料金負担はありませんのでご安心ください。
                 </p>
               </div>
             </div>
@@ -643,6 +643,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
 
     $(window).resize(function() {
       updatePadding();
+
     });
   </script>
 

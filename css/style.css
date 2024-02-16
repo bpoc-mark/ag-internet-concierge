@@ -34,7 +34,7 @@
 .sec1 .sec1--container .l-wrap .datails-box h1 {
   font-size: 3.8vw;
   font-family: LineSeedBold;
-  line-height: 7vw;
+  line-height: 6vw;
 }
 
 .sec1 .sec1--container .l-wrap .datails-box h1 .green {
@@ -42,9 +42,9 @@
   font-size: 3.8vw;
 }
 .sec1 .sec1--container .l-wrap .datails-box .ptext {
-  font-size: 21px;
+  font-size: 1.313em;
   font-family: LineSeedBold;
-  line-height: 39px;
+  line-height: 1.8571428571428572em;
   padding-top: 24px;
   padding-bottom: 80px;
 }
@@ -176,7 +176,7 @@
   transform: translate(-50%, 0);
 }
 .buttons .btn p {
-  font-size: 20px;
+  font-size: 1.25em;
   font-family: LineSeedBold;
   line-height: 28px;
 }
@@ -289,16 +289,18 @@
   .sec1 .sec1--container .l-wrap .datails-box h1 {
     font-size: 33px;
     line-height: 46px;
+    letter-spacing: 0.7vw;
   }
   .sec1 .sec1--container .l-wrap .datails-box h1 .green {
     font-size: 33px;
+    letter-spacing: 0.7vw;
   }
   .text--box .text-title {
     padding-bottom: 17px;
   }
   .sec1 .sec1--container .l-wrap .datails-box .ptext {
-    font-size: 14px;
-    line-height: 25px;
+    font-size: 0.875em;
+    line-height: 1.7857142857142858em;
     padding-top: 29px;
     padding-bottom: 40px;
   }
@@ -375,8 +377,8 @@
 /* start section 2 */
 .sec2 .component--hdng-ttll {
   font-family: LineSeedBold;
-  font-size: 36px;
-  line-height: 52px;
+  font-size: 2.25em;
+  line-height: 1.4444444444444444em;
   color: #1a6c49;
 }
 
@@ -404,17 +406,16 @@
 }
 
 .sec2--container .wrapper .tittle--text h1 {
-  font-size: 30px;
+  font-size: 1.875em;
   font-family: LineSeedBold;
-  line-height: 48px;
+  line-height: 1.6em;
   padding-bottom: 29px;
   color: #1a6c49;
 }
 
 .sec2--container .detail-box p {
-  font-size: 18px;
   font-family: LineSeedRegular;
-  line-height: 38px;
+  line-height: 2.10em;
   padding-bottom: 36px;
 }
 
@@ -474,8 +475,8 @@
   }
 
   .sec2 .component--hdng-ttll {
-    font-size: 20px;
-    line-height: 33px;
+    font-size: 1.25em;
+    line-height: 1.65em;
   }
 
   .hdr {
@@ -494,14 +495,14 @@
   }
 
   .sec2--container .wrapper .tittle--text h1 {
-    font-size: 20px;
-    line-height: 33px;
+    font-size: 1.25em;
+    line-height: 1.65em;
     padding-bottom: 18px;
   }
 
   .sec2--container .detail-box p {
-    font-size: 16px;
-    line-height: 31px;
+    font-size: 1em;
+    line-height: 1.9375em;
     padding-bottom: 29px;
   }
 
@@ -544,7 +545,7 @@
 }
 
 .sec3 h4 {
-  font-size: 28px;
+  font-size: 1.75em;
   color: #1a6c49;
   font-family: LineSeedBold;
   text-align: left;
@@ -559,7 +560,7 @@
 }
 
 .sec3 p {
-  line-height: 37px;
+  line-height: 2.055em;
   text-align: left;
 }
 
@@ -643,9 +644,9 @@
   }
 
   .sec3 h4 {
-    font-size: 20px;
+    font-size: 1.25em;
     margin-bottom: 0;
-    line-height: 33px;
+    line-height: 1.65em;
     margin-left: 16px;
   }
 
@@ -654,8 +655,8 @@
   }
 
   .sec3 p {
-    font-size: 16px;
-    line-height: 31px;
+    font-size: 1em;
+    line-height: 1.9375em;
   }
 }
 
@@ -734,8 +735,8 @@
 
 .card-message .card-title h3 {
   font-family: LineSeedBold;
-  font-size: 27px;
-  line-height: 47px;
+  font-size: 1.688em;
+  line-height: 1.7em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -761,8 +762,8 @@
 }
 
 .card-message .card-description p {
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 1.125em;
+  line-height: 1.6666666666666667em;
   font-family: LineSeedRegular;
   text-align: center;
 }
@@ -808,7 +809,7 @@
   }
 
   .card-message .card-title h3 {
-    font-size: 16px;
+    font-size: 1em;
     padding-bottom: 10px;
     margin-bottom: 10px;
     justify-content: left;
@@ -822,9 +823,9 @@
   }
 
   .card-message .card-description p {
-    font-size: 14px;
+    font-size: 0.875em;
     text-align: left;
-    line-height: 23px;
+    line-height: 1.6428571428571428em;
   }
 
   .sec5-box-container .card-container .box-green {
@@ -939,7 +940,7 @@
 
 .circle-message p {
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 23px;
   font-family: LineSeedBold;
 }
@@ -950,15 +951,15 @@
 }
 
 .right-card h2 {
-  font-size: 24px;
+  font-size: 1.5em;
   color: #1a6c49;
-  line-height: 47px;
+  line-height: 1.9583333333333333em;
   font-family: LineSeedBold;
 }
 
 .right-card p {
-  font-size: 17px;
-  line-height: 33px;
+  font-size: 1.063em;
+  line-height: 1.6428571428571428em;
   font-family: LineSeedRegular;
 }
 
@@ -971,11 +972,15 @@
     clip-path: ellipse(57% 60px at 50% 100%);
   }
 
+  .sec6 .swiper-wrapper{
+    align-items: stretch;
+  }
+
   .card--container {
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
-    padding: 15px 15px 15px 15px;
+    padding: 15px 15px 86px 15px;
     border-radius: 30px;
     width: 100%;
   }
@@ -986,7 +991,7 @@
     display: flex;
     padding-bottom: 22px;
     border-bottom: 1px solid #c8dbd3;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 15px;
     width: 100%;
@@ -1007,7 +1012,7 @@
 
   .circle-message p {
     margin-top: 5px;
-    font-size: 14px;
+    font-size: 0.875em;
     line-height: 23px;
     padding-left: 0;
   }
@@ -1020,13 +1025,13 @@
   }
 
   .right-card h2 {
-    font-size: 18px;
+    font-size: 1.125em;
     line-height: 31px;
     padding-top: 25px;
   }
 
   .right-card p {
-    font-size: 15px;
+    font-size: 0.938em;
     padding-top: 15px;
     line-height: 30px;
   }
@@ -1068,14 +1073,14 @@
 }
 
 .sec7--container a p {
-  font-size: 27px;
+  font-size: 1.688em;
   font-weight: 700;
   color: white;
   font-family: LineSeedBold;
 }
 
 .sec7--container a span {
-  font-size: 27px;
+  font-size: 1.688em;
   font-weight: 700;
   color: white;
   padding-right: 17px;
@@ -1090,7 +1095,7 @@
 }
 
 .sec7--drop-down p {
-  font-size: 20px;
+  font-size: 1.25em;
   font-family: LineSeedRegular;
   line-height: 35px;
   padding: 24px 28px;
@@ -1100,10 +1105,12 @@
 }
 
 .sec7--drop-down p span {
-  font-size: 27px;
+  font-size: 1.35em;
   font-family: LineSeedBold;
   color: #e2c10d;
   padding-right: 14px;
+  position: relative;
+  top: 2px;
 }
 
 .rotate {
@@ -1127,7 +1134,7 @@
 
 @media screen and (max-width: 960px) {
   .sec7 {
-    padding: 45px 0 64px;
+    padding: 5px 0 64px;
   }
 
   .sec7--container a {
@@ -1140,13 +1147,13 @@
   }
 
   .sec7--container a p {
-    font-size: 18px;
+    font-size: 1.125em;
     line-height: 26px;
     padding-right: 14px;
   }
 
   .sec7--container a span {
-    font-size: 18px;
+    font-size: 1.125em;
     line-height: 1;
     padding-right: 9px;
     position: relative;
@@ -1165,7 +1172,7 @@
   }
 
   .sec7--drop-down p {
-    font-size: 14px;
+    font-size: 0.875em;
     line-height: 23px;
     padding: 7px 15px 9px;
     text-indent: -27px;
@@ -1173,7 +1180,7 @@
   }
 
   .sec7--drop-down p span {
-    font-size: 18px;
+    font-size: 1.30em;
     line-height: 27px;
     padding-right: 8px;
   }
@@ -1322,7 +1329,7 @@
 }
 
 .buttons .btn p {
-  font-size: 1.125;
+  font-size: 1.25em;
   font-family: LineSeedBold;
   line-height: 28px;
 }
@@ -1390,23 +1397,16 @@
   }
 
   .sec1 .sec1--container .l-wrap .datails-box h1 {
-    font-size: 33px;
+    font-size: 2.063em;
     line-height: 46px;
   }
 
   .sec1 .sec1--container .l-wrap .datails-box h1 .green {
-    font-size: 33px;
+    font-size: inherit;
   }
 
   .text--box .text-title {
     padding-bottom: 17px;
-  }
-
-  .sec1 .sec1--container .l-wrap .datails-box .ptext {
-    font-size: 14px;
-    line-height: 25px;
-    padding-top: 29px;
-    padding-bottom: 40px;
   }
 
   .sec1 .illu--box .illustration-img {
@@ -1453,7 +1453,7 @@
   }
 
   .buttons .btn p {
-    font-size: 16px;
+    font-size: 1em;
     line-height: 20px;
   }
 
@@ -1494,7 +1494,7 @@
 
 @media screen and (max-width: 960px) {
   #sec9 {
-    padding-top: 14px;
+    padding-top: 70px;
   }
 }
 
@@ -1652,7 +1652,7 @@
 
 #contactSect .contactSect_flex_box > label {
   font-family: LineSeedBold;
-  font-size: 20px;
+  font-size: 1.25em;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -1722,7 +1722,7 @@
 #contactSect input[type="text"],
 #contactSect input[type="date"] {
   width: 100%;
-  font-size: 18px;
+  font-size: 1.125em;
   height: 56px;
   border-radius: 10px;
   border: none;
@@ -1762,7 +1762,7 @@
   /* margin: 0 auto; */
   width: 374px;
   height: 85px;
-  font-size: 20px;
+  font-size: 1.25em;
   font-family: LineSeedBold;
   background-color: #1a6c49;
   color: #ffffff;
@@ -1784,7 +1784,7 @@
   /* margin: 0 auto; */
   width: 374px;
   height: 85px;
-  font-size: 20px;
+  font-size: 1.25em;
   font-family: LineSeedBold;
   background-color: #6A6A6A;
   color: #fff;
@@ -1811,7 +1811,7 @@
   width: 100%;
   height: 56px;
   padding: 0 15px;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 500;
   font-family: LineSeedRegular;
   border: none;
@@ -1827,7 +1827,7 @@
 
 #contactSect .contactSect_select_item {
   width: 100%;
-  font-size: 15px;
+  font-size: 1.125em;
   line-height: 1.2;
 }
 
@@ -1964,7 +1964,7 @@
 }
 
 #contactSect textarea {
-  font-size: 18px;
+  font-size: 1.125em;
   font-weight: 500;
   font-family: LineSeedRegular;
   width: 100%;
@@ -2004,7 +2004,7 @@
 .contactSect_astarisk {
   color: #fff;
   background-color: #dd4e34;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 1;
   padding: 5px 10px;
   border-radius: 50px;
@@ -2270,7 +2270,7 @@
 
 #contactSect .privacyWrap p {
   text-align: center;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 #contactSect .privacyWrap p a {
@@ -2298,6 +2298,10 @@
   right: 30px;
   transform: translate(0, -50%);
   transition: 0.2s ease-in-out;
+}
+#contactSect input.btn[type="reset"] + img{
+  left: 30px;
+  transform: translate(0, -50%) scaleX(-1);
 }
 
 #contactSect.thanksPage .component--hdng-ttl {
@@ -2342,7 +2346,7 @@
 
   #contactSect.input,
   #contactSect.confirm {
-    padding: 120px 0;
+    padding: 64px 0;
   }
 
   #contactSect .contactSect_inner {
@@ -2365,18 +2369,22 @@
   }
 
   #contactSect .contactSect_flex_box > label {
-    font-size: 18px;
+    font-size: 1.125em;
     margin-bottom: 0;
     padding-bottom: 8px;
   }
 
   .contactSect_astarisk {
-    font-size: 14px;
+    font-size: 0.8em;
     padding: 3px 7px;
   }
 
   #contactSect input[type="text"] {
-    font-size: 16px;
+    font-size: 1em;
+    height: 41px;
+  }
+
+  #contactSect .select_07_half > select {
     height: 41px;
   }
 
@@ -2389,7 +2397,7 @@
   }
 
   #contactSect textarea {
-    font-size: 16px;
+    font-size: 1em;
   }
 
   #contactSect.confirm .contactSect_flex_box {
@@ -2412,7 +2420,7 @@
   #contactSect .privacyWrap p {
     text-align: left;
     line-height: 28px;
-    font-size: 16px;
+    font-size: 1em;
   }
 
   #contactSect .privacyWrap p a {
@@ -2536,7 +2544,7 @@
   #contactSect input.btn[type="submit"] {
     width: 180px;
     height: 48px;
-    font-size: 16px;
+    font-size: 1.25em;
   }
 
   #contactSect.input input.btn[type="submit"] + img {
@@ -2546,7 +2554,7 @@
   #contactSect input.btn[type="reset"] {
     width: 180px;
     height: 48px;
-    font-size: 16px;
+    font-size: 1.25em;
   }
 
   #contactSect .contactSect_select_item label {
