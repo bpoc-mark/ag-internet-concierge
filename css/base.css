@@ -59,12 +59,33 @@ header {
 
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 961px) {
   .mar-style {
     max-width: 1480px;
     width: auto;
     padding: 0 40px;
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .mar-style{
+    max-width: calc(100vw - 5vw) !important;
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .mar-style{
+    max-width: calc(100vw - 7vw) !important;
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mar-style {
+    max-width: calc(100vw - 14vw) !important;
+    width: 100% !important;
   }
 }
 
@@ -98,7 +119,7 @@ footer .footer--des .p1 {
 
 .bg_ft {
   background-color: #0a492e;
-  padding: 53px 0 30px;
+  padding: 2.29vw 0 2.17vw;
   /* max-height: 200px; */
 }
 footer .footer--des p {
@@ -118,7 +139,7 @@ footer .footer--des p {
   display: flex;
 }
 .info .info--p {
-  padding: 0 32px;
+  padding: 0 1.702vw;
 }
 .info p {
   font-family: LineSeedBold;
@@ -128,7 +149,7 @@ footer .footer--des p {
 
 @media only screen and (max-width: 960px) {
   .bg_ft {
-    padding: 31px 0px 15px;
+    padding: 8.5vw 0 4.8vw;
   }
   .footer--container {
     display: flex;
@@ -147,7 +168,7 @@ footer .footer--des p {
   footer .info--p {
     text-align: center;
     font-size: 0.75em;
-    margin-bottom: 15px;
+    margin-bottom: 4vw;
   }
   footer .info--p1 {
     font-size: 0.75em;
