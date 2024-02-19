@@ -475,7 +475,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
             <div class="sec7--container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <a href="" class="sec7--drop-button">
                 <div>
-                  <span>Ｑ.</span>
+                  <span>Ｑ</span>
                   <p>
                     相談したら何か売りつけられない？
                   </p>
@@ -484,14 +484,14 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
               </a>
               <div class="sec7--drop-down">
                 <p>
-                  <span>A.</span>ネット回線コンシェルジュはあくまでも相談の場を設けている相談窓口です。<br>強引に乗り換えをお勧めすることはありません。
+                  <span>A</span>ネット回線コンシェルジュはあくまでも相談の場を設けている相談窓口です。<br>強引に乗り換えをお勧めすることはありません。
                 </p>
               </div>
             </div>
             <div class="sec7--container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <a href="" class="sec7--drop-button">
                 <div>
-                  <span>Ｑ.</span>
+                  <span>Ｑ</span>
                   <p>
                     相談は本当に無料？
                   </p>
@@ -500,14 +500,14 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
               </a>
               <div class="sec7--drop-down">
                 <p>
-                  <span>A.</span>何回相談してもインターネット相談は無料です。納得いくまでご相談に乗ります。
+                  <span>A</span>何回相談してもインターネット相談は無料です。納得いくまでご相談に乗ります。
                 </p>
               </div>
             </div>
             <div class="sec7--container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <a href="" class="sec7--drop-button">
                 <div>
-                  <span>Ｑ.</span>
+                  <span>Ｑ</span>
                   <p>
                     どこで相談するの？
                   </p>
@@ -516,14 +516,14 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
               </a>
               <div class="sec7--drop-down">
                 <p>
-                  <span>A.</span>基本的には電話相談となります。<br>ただ、お客様の居住地域等により応相談となります。
+                  <span>A</span>基本的には電話相談となります。<br>ただ、お客様の居住地域等により応相談となります。
                 </p>
               </div>
             </div>
             <div class="sec7--container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <a href="" class="sec7--drop-button">
                 <div>
-                  <span>Ｑ.</span>
+                  <span>Ｑ</span>
                   <p>
                     相談の所要時間はどのくらい？
                   </p>
@@ -532,14 +532,14 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
               </a>
               <div class="sec7--drop-down">
                 <p>
-                  <span>A.</span>１０分〜２０分くらいが目安となっております。<br>１〜２時間相談される方もおりますがお客様の料金負担はありませんのでご安心ください。
+                  <span>A</span>１０分〜２０分くらいが目安となっております。<br>１〜２時間相談される方もおりますがお客様の料金負担はありませんのでご安心ください。
                 </p>
               </div>
             </div>
             <div class="sec7--container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
               <a href="" class="sec7--drop-button">
                 <div>
-                  <span>Ｑ.</span>
+                  <span>Ｑ</span>
                   <p>
                     きちんとした窓口なのか？信用していいのか？
                   </p>
@@ -548,7 +548,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
               </a>
               <div class="sec7--drop-down">
                 <p>
-                  <span>A.</span>ネット回線コンシェルジュはあくまでも相談の場を設けている相談窓口です。<br>強引に乗り換えをお勧めすることはありません。
+                  <span>A</span>ネット回線コンシェルジュはあくまでも相談の場を設けている相談窓口です。<br>強引に乗り換えをお勧めすることはありません。
                 </p>
               </div>
             </div>

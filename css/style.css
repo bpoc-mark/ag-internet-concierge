@@ -1280,18 +1280,21 @@
 /* SECTION 11  */
 .sec7 {
   background-color: #fff;
-  padding: 40px 0 120px;
+  padding: 0 0 6.5vw;
+}
+.sec7 .mar-style{
+  max-width: 73%;
 }
 
 .sec7--container {
   background-color: #ffffff;
-  border-radius: 10px;
-  padding: 30px 32px 28px;
+  border-radius: 20px;
+  padding: 1.596vw 1.702vw 1.489vw;
   background-color: #1a6c49;
 }
 
 .sec7--container:not(:last-child) {
-  margin-bottom: 24px;
+  margin-bottom: 1.33vw;
 }
 
 .sec7--container a {
@@ -1321,7 +1324,7 @@
   font-size: 1.688em;
   font-weight: 700;
   color: white;
-  padding-right: 17px;
+  padding-right: 0.904vw;
   font-family: LineSeedBold;
 }
 
@@ -1329,16 +1332,16 @@
   display: none;
   background-color: #ffffff;
   border-radius: 10px;
-  margin-top: 18px;
+  margin-top: 0.957vw;
 }
 
 .sec7--drop-down p {
   font-size: 1.25em;
   font-family: LineSeedRegular;
   line-height: 35px;
-  padding: 24px 28px;
+  padding: 1.277vw 1.489vw;
   color: #37393c;
-  text-indent: -44px;
+  text-indent: -36px;
   margin-left: 40px;
 }
 
@@ -1348,7 +1351,7 @@
   color: #e2c10d;
   padding-right: 14px;
   position: relative;
-  top: 2px;
+  top: 0.106vw;
 }
 
 .rotate {
@@ -1372,7 +1375,7 @@
 
 @media screen and (max-width: 960px) {
   .sec7 {
-    padding: 5px 0 64px;
+    padding: 0.521vw 0 6.667vw;
   }
 
   .sec7--container a {
@@ -1387,44 +1390,44 @@
   .sec7--container a p {
     font-size: 1.125em;
     line-height: 26px;
-    padding-right: 14px;
+    padding-right: 1.458vw;
   }
 
   .sec7--container a span {
     font-size: 1.125em;
     line-height: 1;
-    padding-right: 9px;
+    padding-right: 0.938vw;
     position: relative;
-    top: 5px;
+    top: 0.5vw;
   }
 
   .sec7--container a img {
     width: 17px;
     height: 10px;
     position: relative;
-    top: 8px;
+    top: 0.833vw;
   }
 
   .sec7--container {
-    padding: 25px 24px 23px;
+    padding: 2.604vw 2.5vw 2.396vw;
   }
 
   .sec7--drop-down p {
     font-size: 0.875em;
     line-height: 23px;
     padding: 7px 15px 9px;
-    text-indent: -27px;
+    text-indent: -23px;
     margin-left: 27px;
   }
 
   .sec7--drop-down p span {
-    font-size: 1.30em;
+    font-size: 1.3em;
     line-height: 27px;
     padding-right: 8px;
   }
 
   .sec7--container:not(:last-child) {
-    margin-bottom: 16px;
+    margin-bottom: 1.6vw;
   }
 }
 
@@ -1439,6 +1442,54 @@
   }
 }
 
+@media screen and (max-width: 700px) {
+  .sec7--container:not(:last-child) {
+    margin-bottom: 2.2vw;
+  }
+  .sec7--container {
+    padding:  3.571vw 3.429vw 3.286vw;
+  }
+
+  .sec7--container a span {
+    top: 0.7vw;
+  }
+  .sec7 {
+    padding: 0.521vw 0 9.143vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sec7--container:not(:last-child) {
+    margin-bottom: 3vw;
+  }
+  .sec7--container {
+    padding:  5vw 4.8vw 4.6vw;
+  }
+  .sec7--container a span {
+    top: 0.9vw;
+  }
+  .sec7 {
+    padding: 0.521vw 0 12.8vw;
+  }
+  .sec7--drop-down {
+    margin-top: 4.5vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .sec7--container:not(:last-child) {
+    margin-bottom: 4vw;
+  }
+  .sec7--container {
+    padding: 6.667vw 6.4vw 6.133vw;
+  }
+  .sec7--container a span {
+    top: 1.2vw;
+  }
+  .sec7 {
+    padding: 0.521vw 0 17.067vw;
+  }
+}
 /* END OF SECTION 7 */
 
 /* text box component */
