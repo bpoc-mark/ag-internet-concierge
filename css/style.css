@@ -10,7 +10,7 @@
 }
 .sec1--container .mar-style {
   position: relative;
-  max-width: 1840px;
+  max-width: 100%;
 }
 .sec1--container .l-wrap::after {
   content: "";
@@ -26,10 +26,9 @@
 .l-wrap {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 112px;
 }
-.datails-box {
-  padding: 7em 0;
+.sec1 .l-wrap {
+  padding: 6.51vw 4.167vw 9.375vw;
 }
 .sec1 .sec1--container .l-wrap .datails-box h1 {
   font-size: 3.8vw;
@@ -45,8 +44,8 @@
   font-size: 1.313em;
   font-family: LineSeedBold;
   line-height: 1.8571428571428572em;
-  padding-top: 24px;
-  padding-bottom: 80px;
+  padding-top: 1.25vw;
+  padding-bottom: 4.167vw;
 }
 
 .sec1 .sec1--container .l-wrap .datails-box .text--box .text-title h1 {
@@ -61,7 +60,7 @@
 .sec1 .illu--box .circle-box {
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
+  padding-top: 1.25vw;
   margin: 0 -4px;
 }
 .sec1 .illu--box .circle-box img {
@@ -202,7 +201,6 @@
   .sec1 .buttons .green {
     max-width: 100%;
     margin-right: unset;
-    margin-bottom: 16px;
   }
   .sec1 .buttons .yellow {
     max-width: 100%;
@@ -223,7 +221,14 @@
 
 @media screen and (max-width: 960px) {
   .sec1 .text--box{
-    padding: 35px 24px 25px;
+    padding: 3vw 2.5vw 2vw;
+  }
+  .sec1 .l-wrap {
+    padding: 0;
+  }
+  .sec1 .mar-style {
+    max-width: 100% !important;
+    width: 100% !important;
   }
   .text--box .text-title .text--tittle-img .pcH1W {
     content: url("/images/common/spH1W.png");
@@ -245,7 +250,7 @@
     right: 0;
   }
   .datails-box {
-    padding: 24px 24px 64px;
+    padding: 2.5vw  2.5vw 6.5vw;
     width: 100%;
   }
   .sec1--container .mar-style {
@@ -283,7 +288,7 @@
   .sec1 .illu--box {
     display: flex;
     justify-content: center;
-    padding: 24px 24px 43px;
+    padding: 2.5vw 2.2vw 5vw;
   }
 
   .sec1 .sec1--container .l-wrap .datails-box h1 {
@@ -301,8 +306,8 @@
   .sec1 .sec1--container .l-wrap .datails-box .ptext {
     font-size: 0.875em;
     line-height: 1.7857142857142858em;
-    padding-top: 29px;
-    padding-bottom: 40px;
+    padding-top: 3.2vw;
+    padding-bottom: 4vw;
   }
   .sec1 .illu--box .illustration-img {
     max-width: unset;
@@ -362,7 +367,35 @@
     padding: 34px 24px 24px;
   }
 }
-@media screen and (min-width: 1835px){
+@media screen and (max-width: 700px) {
+  .sec1 .illu--box {
+    padding: 3.5vw 3.2vw 6vw;
+  }
+  
+  .datails-box {
+    padding: 3.5vw  3.5vw 9vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .sec1 .illu--box {
+    padding: 6.5vw 5.5vw 11vw;
+  }
+  .sec1 .illu--box .circle-box {
+    padding-top: 6vw;
+  }
+  .datails-box {
+    padding: 6.5vw  6.5vw 17vw;
+  }
+  .sec1 .text--box{
+    padding: 7vw 6.5vw 7vw;
+  }
+  
+  .sec1 .sec1--container .l-wrap .datails-box .ptext {
+    padding-top: 4.5vw;
+    padding-bottom: 10vw;
+  }
+}
+@media screen and (min-width: 1913px){
   .sec1 .sec1--container .l-wrap .datails-box h1{
     font-size: 4.37em;
     line-height: 98px;
@@ -1450,23 +1483,15 @@
 }
 
 @media screen and (min-width: 961px) {
-  .l-wrap {
-    align-items: center;
-  }
-
   .datails-box {
     width: 50%;
-  }
-
-  .sec1 .sec1--container .l-wrap .right {
-    width: 44%;
   }
 }
 
 @media screen and (max-width: 960px) {
   .text--box .text-title .text--tittle-img .pcH1W {
     content: url("/images/common/spH1W.png");
-    width: 275px;
+    max-width: 275px;
   }
 
   .text--box .text-title .text--tittle-img .pcH1B {
@@ -1480,33 +1505,10 @@
   .text--box .text-title2 .con-sp {
     content: url("/images/common/spcontactimgW.png");
   }
-
-  .sec1 .illu--box {
-    display: flex;
-    justify-content: center;
-    padding: 24px 25px 43px;
-  }
-
-  .sec1 .illu--box .circle-box {
-    padding-top: 25px;
-    margin: 0 -4px;
-  }
-
-  .sec1 .sec1--container .l-wrap .datails-box h1 {
-    font-size: 2.063em;
-    line-height: 46px;
-  }
-
-  .sec1 .sec1--container .l-wrap .datails-box h1 .green {
-    font-size: inherit;
-  }
+  
 
   .text--box .text-title {
-    padding-bottom: 5vw;
-  }
-
-  .sec1 .illu--box .illustration-img {
-    max-width: unset;
+    padding-bottom: 2vw;
   }
 
   .l-wrap {
@@ -1545,7 +1547,7 @@
   }
 
   .buttons {
-    padding: 2vw 0px;
+    padding: 0 0 2vw;
   }
 
   .buttons .btn p {
@@ -1562,11 +1564,38 @@
 
   .buttons .green {
     margin-right: unset;
-    margin-bottom: 4vw;
+    margin-bottom: 1.5vw;
   }
 
+  .container--box {
+    max-width: 100%;
+    width: 100%;
+  }
   .secCTA .text--box {
-    padding: 8vw 12vw 8vw;
+    padding: 3vw 5vw 1.5vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .secCTA .text--box {
+    padding: 5vw 5vw 3.5vw;
+  }
+  .buttons .green {
+    margin-bottom: 2.5vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .secCTA .text--box {
+    padding: 8vw 12.5vw 7vw;
+  }
+  .buttons .green {
+    margin-bottom: 4.5vw;
+  }
+  .buttons {
+    padding: 3vw 0 2vw;
+  }
+  .text--box .text-title {
+    padding-bottom: 4vw;
   }
 }
 
@@ -2429,6 +2458,17 @@
   padding: 60px 80px 80px;
 }
 
+@media screen and (min-width: 961px) {
+  #contactSect .mar-style{
+    max-width: 73%;
+  }
+}
+@media screen and (max-width: 1096px) {
+  #contactSect .contactSect_select_item label:last-child {
+    margin-left: 1vw;
+  }
+}
+
 @media screen and (max-width: 1040px) {
   .ipad_display {
     display: block;
@@ -2438,7 +2478,7 @@
 @media screen and (max-width: 960px) {
   
   .contactSect_input_list {
-    margin: 2.128vw auto 10vw;
+    margin: 2.128vw auto 4vw;
   }
 
   #contactSect {
@@ -2447,21 +2487,21 @@
 
   #contactSect.input,
   #contactSect.confirm {
-    padding: 17.067vw 0;
+    padding: 6.7vw 0;
   }
 
   #contactSect .contactSect_inner {
     border-radius: 37px;
-    padding: 7.4vw 6.4vw 10.667vw;
+    padding: 2vw 2.5vw 4vw;
   }
 
   .contactSect_flex_box {
     width: 100%;
-    padding-bottom: 6vw;
+    padding-bottom: 2.5vw;
   }
 
   .contactSect_flex_box:nth-child(6) {
-    padding-bottom: 5vw;
+    padding-bottom: 1.8vw;
   }
 
   .contactSect_flex_box:nth-child(6) .p-form__container {
@@ -2472,7 +2512,7 @@
   #contactSect .contactSect_flex_box > label {
     font-size: 1.125em;
     margin-bottom: 0;
-    padding-bottom: 2.5vw;
+    padding-bottom: .8vw;
   }
 
   .contactSect_astarisk {
@@ -2592,6 +2632,36 @@
 
   .privacyCont .privacyCont--item ol.katakana-list ol {
     padding-left: 5px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #contactSect.input, #contactSect.confirm {
+    padding: 9vw 0;
+  }
+  #contactSect .contactSect_inner {
+    padding: 3vw 3.5vw 6vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #contactSect.input, #contactSect.confirm {
+    padding: 17vw 0;
+  }
+  #contactSect .contactSect_inner {
+    padding: 8vw 6.5vw 11vw;
+  }
+  #contactSect .contactSect_flex_box > label {
+    padding-bottom: 2vw;
+  }
+  .contactSect_flex_box {
+    padding-bottom: 6vw;
+  }
+  .contactSect_flex_box:nth-child(6) {
+    padding-bottom: 4.5vw;
+  }
+  .contactSect_input_list {
+    margin: 2.128vw auto 10vw;
   }
 }
 
