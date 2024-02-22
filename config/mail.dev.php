@@ -137,10 +137,10 @@ $smtpConfig = array(
     'is_smtp' => 1,
     'SMTPDebug' => 0, //SMTPDebug
     'SMTPAuth' => true,
-    'host' => 'smtp.gmail.com',
-    'port' => '587',
-    'username' => 'markariel.maata@bpoc.co.jp',
-    'password' => 'Getyourown1108',
+    'host' => 'sandbox.smtp.mailtrap.io',
+    'port' => '2525',
+    'username' => '9faf7e96f84248',
+    'password' => 'e1e483b0bb5ca2',
     'secure' => 'tls',  //SMTPSecure
 
 );
