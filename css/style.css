@@ -644,6 +644,7 @@
 }
 .sec3 p b{
   font-family: LineSeedBold;
+  font-size: inherit;
 }
 
 .sec3 figure {
