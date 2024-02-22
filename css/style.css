@@ -456,6 +456,7 @@
 }
 .sec2--container .detail-box p b {
   font-family: LineSeedBold;
+  font-size: inherit;
 }
 
 .sec2 .hdr-container {
@@ -794,13 +795,13 @@
   .sec3 h4 {
     margin-left: 3vw;
   }
-}
+} 
 
 /* END OF SECTION 3 */
 
 /* Section 5 */
 .sec5 .mar-style{
-  max-width: 73%;
+  max-width: 60%;
 }
 
 .sec5-container {
@@ -1193,14 +1194,15 @@
     display: flex;
     padding-bottom: 2.292vw;
     border-bottom: 1px solid #c8dbd3;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 1.563vw;
     width: 100%;
   }
 
   .card--container .left-card .circle {
-    width: 50%;
+    width: 36%;
+    display: flex;
   }
 
   .card--container .left-card .circle img {
@@ -1282,7 +1284,7 @@
   }
 
   .card--container {
-    padding:  4vw 4vw 22.933vw 4vw;
+    padding: 4vw 4vw 7.3vw 4vw;
   }
 }
 /* END OF SECTION 6 */

@@ -431,6 +431,28 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                   <img src="images/sec6/triangle.png" alt="" />
                 </div>
               </div>
+              <div class="swiper-slide">
+                <div class="card--container">
+                  <div class="left-card">
+                    <div class="circle">
+                      <img src="images/sec6/circle02.png" alt="" />
+                    </div>
+                    <div class="circle-message">
+                      <p class="description">静岡県田方郡<br>
+                        函南町戸建てにお住まい</p>
+                      <p class="tag">Tさん</p>
+                    </div>
+                  </div>
+                  <div class="right-card">
+                    <h2>設定がうまくいきました。</h2>
+                    <p>初めてのインターネットだったのでとにかく設定がうまくいかずに悩んでいました。
+                      家族も遠くにいる一人暮らしの身なので相談させてもらって大変助かりました。</p>
+                  </div>
+                </div>
+                <div class="triangle">
+                  <img src="images/sec6/triangle.png" alt="" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -590,11 +612,6 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       spaceBetween: 25,
       loop: true,
       centeredSlides: true,
-      autoplay: {
-        delay: 0, // Adjust the delay as needed
-        disableOnInteraction: false, // Enable navigation during autoplay
-      },
-      runCallbacksOnInit: true, // Ensure autoplay triggers only once during initialization
       breakpoints: {
         961: {
           slidesPerView: 1.4,
@@ -606,10 +623,6 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
         }
       }
     });
-
-    setTimeout(() => {
-      swiper.autoplay.stop();
-    }, 1000);
 
     function updatePadding() {
       var header = $('header').height()

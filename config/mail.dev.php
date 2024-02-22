@@ -33,7 +33,7 @@ $config["csvFile"]["name"] = "submit-form.csv";
 $config['receptionist_email'] = 'markariel.maata@bpoc.co.jp';
 
 ## 自動返信メールの差出人名
-$config['sender_name'] = 'Test';
+$config['sender_name'] = 'ネット回線コンシェルジュ';
 
 ## 自動返信メールの差出人メールアドレス
 $config['sender_email'] = "markariel.maata@bpoc.co.jp";
@@ -44,7 +44,7 @@ $config['reply_to_fixed'] = 1;
 
 ## 設置者に届くメールの件名
 ## %sにはシリアル番号が入ります。
-$config['receptionist_subject'] = "Test";
+$config['receptionist_subject'] = "【ネット回線コンシェルジュ】LPから問い合わせがありました";
 
 ## 必須の項目
 ## メールアドレスはemailにしてください。
@@ -81,15 +81,13 @@ __posted_body__;
 
 
 ## 自動返信メールのタイトル
-$config["return_subject"] = 'test';
+$config["return_subject"] = 'ネット回線コンシェルジュ_お問い合わせありがとうございます';
 
 ## 自動返信メールの本文
 ## "<_"と"_>"で挟まれている項目名(変数)を挿入します。
 $config['return_body'] = <<<__return_body__
 
 
-【件名】ネット回線コンシェルジュ_お問い合わせありがとうございました<br>
-<br>
 このメールはシステムからの自動返信です。<br>
 <_お名前_>　 様<br>
 この度はお問い合わせ頂きありがとうございます。<br>
