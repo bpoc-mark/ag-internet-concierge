@@ -28,7 +28,7 @@
   justify-content: space-between;
 }
 .sec1 .l-wrap {
-  padding: 6.51vw 4.167vw 9.375vw;
+  padding: 5.5vw  4.167vw 7.375vw;
 }
 .sec1 .sec1--container .l-wrap .datails-box h1 {
   font-size: 3.8vw;
@@ -45,7 +45,7 @@
   font-family: LineSeedBold;
   line-height: 1.8571428571428572em;
   padding-top: 1.25vw;
-  padding-bottom: 4.167vw;
+  padding-bottom: 2.167vw;
 }
 
 .sec1 .sec1--container .l-wrap .datails-box .text--box .text-title h1 {
@@ -60,7 +60,7 @@
 .sec1 .illu--box .circle-box {
   display: flex;
   justify-content: space-between;
-  padding-top: 1.25vw;
+  padding-bottom: 1.25vw;
   margin: 0 -4px;
 }
 .sec1 .illu--box .circle-box img {
@@ -201,6 +201,7 @@
   .sec1 .buttons .green {
     max-width: 100%;
     margin-right: unset;
+    margin-bottom: 2vw;
   }
   .sec1 .buttons .yellow {
     max-width: 100%;
@@ -381,7 +382,7 @@
     padding: 6.5vw 5.5vw 11vw;
   }
   .sec1 .illu--box .circle-box {
-    padding-top: 6vw;
+    padding-bottom: 6vw;
   }
   .datails-box {
     padding: 6.5vw  6.5vw 17vw;
@@ -410,7 +411,7 @@
 /* start section 2 */
 .sec2 .component--hdng-ttll {
   font-family: LineSeedBold;
-  font-size: 2.25em;
+  font-size: 2.1em;
   line-height: 1.4444444444444444em;
   color: #1a6c49;
 }
@@ -440,8 +441,8 @@
   padding: 2.552vw 3.125vw 0px;
 }
 
-.sec2--container .wrapper .tittle--text h1 {
-  font-size: 1.875em;
+.sec2--container .wrapper .tittle--text h4 {
+  font-size: 1.6em;
   font-family: LineSeedBold;
   line-height: 1.6em;
   padding-bottom: 1.51vw;
@@ -452,6 +453,9 @@
   font-family: LineSeedRegular;
   line-height: 2.10em;
   padding-bottom: 1.875vw;
+}
+.sec2--container .detail-box p b {
+  font-family: LineSeedBold;
 }
 
 .sec2 .hdr-container {
@@ -529,7 +533,7 @@
     padding: 0 0 3.333vw;
   }
 
-  .sec2--container .wrapper .tittle--text h1 {
+  .sec2--container .wrapper .tittle--text h4 {
     font-size: 1.25em;
     line-height: 1.65em;
     padding-bottom: 2vw;
@@ -577,7 +581,7 @@
   .sec2--container .detail-box p {
     padding-bottom: 7vw;
   }
-  .sec2--container .wrapper .tittle--text h1 {
+  .sec2--container .wrapper .tittle--text h4 {
     padding-bottom: 5vw;
   }
   .hdr {
@@ -619,7 +623,7 @@
 }
 
 .sec3 h4 {
-  font-size: 1.75em;
+  font-size: 1.5em;
   color: #1a6c49;
   font-family: LineSeedBold;
   text-align: left;
@@ -636,6 +640,9 @@
 .sec3 p {
   line-height: 2.055em;
   text-align: left;
+}
+.sec3 p b{
+  font-family: LineSeedBold;
 }
 
 .sec3 figure {
@@ -818,7 +825,7 @@
 }
 
 .sec5-box-container .card-container {
-  width: 20%;
+  width: 28%;
 }
 
 .sec5-box-container .card-container .box-green {
@@ -852,7 +859,7 @@
   width: 100%;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 80%;
   transform: translate(0, -50%);
   z-index: 0;
 }
@@ -898,7 +905,7 @@
   font-size: 1.125em;
   line-height: 1.6666666666666667em;
   font-family: LineSeedRegular;
-  text-align: center;
+  text-align: left;
 }
 
 @media screen and (max-width: 1550px) {
@@ -1143,7 +1150,7 @@
 .right-card h2 {
   font-size: 1.5em;
   color: #1a6c49;
-  line-height: 1.9583333333333333em;
+  line-height: 1.5em;
   font-family: LineSeedBold;
 }
 
@@ -1151,11 +1158,14 @@
   font-size: 1.063em;
   line-height: 1.6428571428571428em;
   font-family: LineSeedRegular;
-  padding-top: 0.5vw;
+  padding-top: 1.5vw;
 
 }
 
 @media screen and (max-width: 960px) {
+  .sec6 .component--hdng-ttl {
+    margin: 0 0 11vw 0;
+  }
   .sec6 {
     padding: 7.292vw 0 11.458vw;
   }
@@ -1314,7 +1324,7 @@
 }
 
 .sec7--container a p {
-  font-size: 1.688em;
+  font-size: 1.5em;
   font-weight: 700;
   color: white;
   font-family: LineSeedBold;
@@ -2289,7 +2299,7 @@
 .contactSect_astarisk {
   color: #fff;
   background-color: #dd4e34;
-  font-size: 1em;
+  font-size: 0.8em;
   line-height: 1;
   padding: 5px 10px;
   border-radius: 50px;

@@ -344,7 +344,7 @@
 .header--menu .menu li a {
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.1em;
   font-family: LineSeedBold;
   line-height: 29px;
   transition: .3s ease-in-out;
@@ -356,7 +356,7 @@
 
 @media screen and (min-width: 961px) {
   .header--menu .menu li a {
-    font-size: 14px;
+    font-size: 0.875em;
   }
   .header--wrap {
     padding-left: 4.5vw;
@@ -378,7 +378,7 @@
     padding-right: 2vw;
   }
   .header--menu .menu li a {
-    font-size: 18px;
+    font-size: 1.1em;
   }
   .Hcontact {
     max-width: 16.46vw;

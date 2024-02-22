@@ -105,12 +105,12 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <div data-aos="fade-up" data-aos-delay="300">
                   <div class="illu--box">
                     <div class="illustration-img">
-                      <img class="illusp" src="/images/common/illustrationimg.png" alt="">
                       <div class="circle-box">
                         <img src="/images/common/circle1.png" alt="">
                         <img src="/images/common/circle2.png" alt="">
                         <img src="/images/common/circle3.png" alt="">
                       </div>
+                      <img class="illusp" src="/images/common/illustrationimg.png" alt="">
                     </div>
                   </div>
                 </div>
@@ -123,7 +123,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
         <div class="hdr-container">
           <div class="mar-style">
             <div class="hdr">
-              <h3 class="component--hdng-ttll" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">ネット回線コンシェルジュで解決できること</h3>
+              <h3 class="component--hdng-ttll" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">ネット回線コンシェルジュで出来ること</h3>
             </div>
           </div>
         </div>
@@ -134,43 +134,40 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <div class="wrapperContainer" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="400">
                   <div class="wrapper">
                     <div class="tittle--text">
-                      <h1>通信トラブル、速度が遅い、<br>
-                        不安定などの解決</h1>
+                      <h4>世の中に数多くある回線から、<br>あなたに合ったベストなプランを紹介</h4>
                     </div>
                     <div class="detail-box">
-                      <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここ</p>
+                      <p>「<b>リモートで仕事</b>をするから<b>データ共有やWeb会議が快適</b>に行えるネット環境にしたい」「<b>家でオンラインゲームをしたい</b>ので遊んでいる途中に<b>ネットが落ちたり、ラグが出ない回線</b>にしたい」「特に希望はないけど、とりあえず<b>速度も料金もバランスの取れたプランに変更したい</b>」など、あなたにあったプランを専門スタッフが丁寧にご提案します。</p>
                     </div>
                   </div>
                 </div>
                 <div class="wrapperContainer" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500">
                   <div class="wrapper">
                     <div class="tittle--text">
-                      <h1>高額請求や、勧誘電話の対処、開通後、<br>開通前の解約、契約のキャンセル</h1>
+                      <h4>しつこい営業、<br>勧誘電話や高額請求の対処</h4>
                     </div>
                     <div class="detail-box">
-                      <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここ</p>
+                      <p>「ネット回線の変更を検討し<b>資料請求をしたら、営業電話が止まらなくなった</b>」「安いプランを契約したつもりなのに、<b>支払い明細を確認したら想定以上の金額を支払っていた</b>」などのトラブルやお悩みを、専門スタッフが<b>消費者目線</b>で適切なアドバイスをいたします。誰に相談すればいいか分からないと悩んでいる方は、ネット回線コンシェルジュにご相談ください。</p>
                     </div>
                   </div>
                 </div>
                 <div class="wrapperContainer" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="600">
                   <div class="wrapper">
                     <div class="tittle--text">
-                      <h1>あなたにあったベストな<br>
-                        インターネットプランのご提案</h1>
+                      <h4>繋がりにくい・不安定・速度が遅いなどの<br>回線トラブルを改善</h4>
                     </div>
                     <div class="detail-box">
-                      <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここ</p>
+                      <p>一言で「インターネット環境が悪い」といっても、その<b>原因はさまざま</b>です。 有線接続と無線接続のどちらを使っているかによっても考えられる原因は異なります。<b>回線を変えずとも改善の対処法がある可能性がある</b>ので、まずはネット回線コンシェルジュにご相談ください。<br>豊富な知識で<b>最後までサポート</b>いたします。</p>
                     </div>
                   </div>
                 </div>
                 <div class="wrapperContainer" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="700">
                   <div class="wrapper">
                     <div class="tittle--text">
-                      <h1>回線を変えたが<br>
-                        やっぱり元の回線に戻したい</h1>
+                      <h4>現在ご契約している回線の特定</h4>
                     </div>
                     <div class="detail-box">
-                      <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここ</p>
+                      <p>お客様の中に「月日が経って<b>どの会社と契約していたか忘れてしまった</b>」「他の情報と入り混じって<b>契約した会社がわからなくなってしまった</b>」などのお悩みをお持ちの方がいらっしゃいます。<br>ネット回線コンシェルジュでは、お客様からいくつか情報をいただき、光回線の一覧から該当のものをピックアップして<b>現在ご契約している会社をご案内</b>することが可能です。</p>
                     </div>
                   </div>
                 </div>
@@ -190,7 +187,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                     <span>1</span>
                     <h4>業界トップの<br class="sp">幅広いサポート対応</h4>
                   </div>
-                  <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章</p>
+                  <p><b>業界10年以上のスタッフが多数在籍。年間1万件以上の⽅</b>からインターネット回線･電気･Wi-Fi環境に関するご相談をいただいており、様々なお悩みをお伺いしています。<br>圧倒的な経験値で得た最適な解決策を導き出すまでのスピードや、的を得たアドバイスには<b>絶対の⾃信</b>を持っており、お客様からもご好評をいただいています。</p>
                 </div>
                 <div class="col">
                   <figure>
@@ -204,9 +201,9 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <div class="col">
                   <div class="row-ttl">
                     <span>2</span>
-                    <h4>インターネットに<br class="sp">関する豊富な知識</h4>
+                    <h4>取り扱い商材数 NO.１</h4>
                   </div>
-                  <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章</p>
+                  <p><b>ドコモ光、softbank光、auひかり、ビッグローブ光、NUROひかり、フレッツ光</b>など、弊社でご紹介できる商材は多数！<br>たくさんの商材を取り扱っているからこそ、お客様の状況、ニーズに合わせてご提案することが可能です。</p>
                 </div>
                 <div class="col">
                   <figure>
@@ -220,9 +217,9 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <div class="col">
                   <div class="row-ttl">
                     <span>3</span>
-                    <h4>取り扱い商材数 NO.１</h4>
+                    <h4>ご満足いただけるまでしっかりサポート</h4>
                   </div>
-                  <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章</p>
+                  <p>ご相談を受けて、終わりにはしません。<br>お客様の<b>本質的な問題を解決するまで専門スタッフが最後まで寄り添い</b>、サポートいたします。<br>もちろん<b>ご相談は何度でも無料</b>です。<br>どんな内容でも、一度お気軽にご相談ください。</p>
                 </div>
                 <div class="col">
                   <figure>
@@ -236,9 +233,9 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <div class="col">
                   <div class="row-ttl">
                     <span>4</span>
-                    <h4>手続きが簡単</h4>
+                    <h4>お客様のタイミングで簡単にご相談可能</h4>
                   </div>
-                  <p>解決できること01の文章がここに入ります。解解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章がここに入ります。解決できること01の文章</p>
+                  <p>お電話、Webフォーム、LINEの３つからお客様に合った方法でお問合せが可能です。<br><b>年中無休で受け付け</b>ているので、<b>土日祝日</b>も専門スタッフが丁寧にご対応いたします。<br>WebフォームやLINEからのお問合せも簡単な情報のみご記入いただくだけで、24時間以内にご返信いたします。<b>無理な勧誘や営業も一切いたしません</b>。</p>
                 </div>
                 <div class="col">
                   <figure>
@@ -289,11 +286,10 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 </div>
                 <div class="card-message">
                   <div class="card-title">
-                    <h3><span>1</span>お申し込み</h3>
+                    <h3><span>1</span>無料相談</h3>
                   </div>
                   <div class="card-description">
-                    <p>簡単なフォームにて<br>
-                      情報の入力をします。</p>
+                    <p>お電話、Webフォーム、LINEの３つからお客様に合った方法でご相談いただきます。</p>
                   </div>
                 </div>
               </div>
@@ -305,14 +301,23 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 </div>
                 <div class="card-message">
                   <div class="card-title">
-                    <h3><span>2</span>カウンセリング</h3>
+                    <h3><span>2</span>ヒアリング</h3>
                   </div>
                   <div class="card-description">
-                    <p>当社スタッフからの<br>連絡を待ちます。</p>
+                    <p>解決策を模索するため担当者より細かくヒアリングいたします。</p>
                   </div>
                 </div>
               </div>
               <div class="card-container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="500">
+                <div class="pc">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="64.604" height="29.611" viewBox="0 0 64.604 29.611" style="position: absolute;top: -2.5em;left: 50%;transform: translate(-50%, 0);">
+                    <g id="Group_70" data-name="Group 70" transform="translate(-1500.198 -4890.235)">
+                      <path id="Path_179" data-name="Path 179" d="M4469,4960.625l8.646,18.8" transform="translate(-2964.823 -63.559)" fill="none" stroke="#1a6c49" stroke-linecap="round" stroke-width="6"/>
+                      <path id="Path_180" data-name="Path 180" d="M4469,4979.426l8.646-18.8" transform="translate(-2916.823 -63.559)" fill="none" stroke="#1a6c49" stroke-linecap="round" stroke-width="6"/>
+                      <path id="Path_181" data-name="Path 181" d="M4487.817,4955.326v20.294" transform="translate(-2955.177 -62.091)" fill="none" stroke="#1a6c49" stroke-linecap="round" stroke-width="6"/>
+                    </g>
+                  </svg>
+                </div>
                 <div class="box-green">
                   <figure>
                     <img src="images/sec5/box-image.png" alt="box-image" class="box-image" />
@@ -320,26 +325,10 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 </div>
                 <div class="card-message">
                   <div class="card-title">
-                    <h3><span>3</span>相談</h3>
+                    <h3><span>3</span>解決策を回答</h3>
                   </div>
                   <div class="card-description">
-                    <p>連絡がきたら<br>
-                      詳細をお伝え下さい。</p>
-                  </div>
-                </div>
-              </div>
-              <div class="card-container" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="600">
-                <div class="box-green">
-                  <figure>
-                    <img src="images/sec5/box-image.png" alt="box-image" class="box-image" />
-                  </figure>
-                </div>
-                <div class="card-message">
-                  <div class="card-title">
-                    <h3><span>4</span>問題解決</h3>
-                  </div>
-                  <div class="card-description">
-                    <p>相談により問題解決！</p>
+                    <p>お悩みに対する解決策を経験豊富な専門スタッフがその場で回答いたします。</p>
                   </div>
                 </div>
               </div>
@@ -349,7 +338,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       </section>
       <section class="sec6" id="sec6">
         <div>
-          <div class="pc" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
             <h2 class="component--hdng-ttl">お客様の声</h2>
           </div>
           <div class="swiper" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
@@ -358,7 +347,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <div class="card--container">
                   <div class="left-card">
                     <div class="circle">
-                      <img src="images/sec6/circle.png" alt="" />
+                      <img src="images/sec6/circle01.png" alt="" />
                     </div>
                     <div class="circle-message">
                       <p class="description">愛知県名古屋市北区<br>
@@ -380,7 +369,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <div class="card--container">
                   <div class="left-card">
                     <div class="circle">
-                      <img src="images/sec6/circle.png" alt="" />
+                      <img src="images/sec6/circle02.png" alt="" />
                     </div>
                     <div class="circle-message">
                       <p class="description">静岡県田方郡<br>
@@ -402,7 +391,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <div class="card--container">
                   <div class="left-card">
                     <div class="circle">
-                      <img src="images/sec6/circle.png" alt="" />
+                      <img src="images/sec6/circle03.png" alt="" />
                     </div>
                     <div class="circle-message">
                       <p class="description">三重県四日市<br>
@@ -424,29 +413,7 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
                 <div class="card--container">
                   <div class="left-card">
                     <div class="circle">
-                      <img src="images/sec6/circle.png" alt="" />
-                    </div>
-                    <div class="circle-message">
-                      <p class="description">岐阜県岐阜市<br>
-                        集合住宅にお住まい</p>
-                      <p class="tag">Wさん</p>
-                    </div>
-                  </div>
-                  <div class="right-card">
-                    <h2>自分の環境に合った提案をしてくれます！</h2>
-                    <p>自分の携帯のキャリアとエリアなどから最もお得で快適なインターネットを紹介していただきました。
-                      工事後でも丁寧にサポートして頂き本当に感謝しております。有難うございました！</p>
-                  </div>
-                </div>
-                <div class="triangle">
-                  <img src="images/sec6/triangle.png" alt="" />
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="card--container">
-                  <div class="left-card">
-                    <div class="circle">
-                      <img src="images/sec6/circle.png" alt="" />
+                      <img src="images/sec6/circle04.png" alt="" />
                     </div>
                     <div class="circle-message">
                       <p class="description">岐阜県岐阜市<br>
@@ -623,6 +590,11 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       spaceBetween: 25,
       loop: true,
       centeredSlides: true,
+      autoplay: {
+        delay: 0, // Adjust the delay as needed
+        disableOnInteraction: false, // Enable navigation during autoplay
+      },
+      runCallbacksOnInit: true, // Ensure autoplay triggers only once during initialization
       breakpoints: {
         961: {
           slidesPerView: 1.4,
@@ -635,6 +607,10 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
       }
     });
 
+    setTimeout(() => {
+      swiper.autoplay.stop();
+    }, 1000);
+
     function updatePadding() {
       var header = $('header').height()
       $('#sec1').css('margin-top', header + 'px');
@@ -643,7 +619,6 @@ require_once rtrim($_SERVER['DOCUMENT_ROOT'], "/") . '/config/define.php';
 
     $(window).resize(function() {
       updatePadding();
-
     });
   </script>
 

@@ -70,6 +70,21 @@ if (!isset($step)) $step = "input";
                             </div>
 
                             <div class="contactSect_flex_box">
+                                <label>メールアドレス<span class="contactSect_astarisk">必須</span></label>
+                                <input class="" type="text" name="email" value="<?= h($_POST["email"] ?? ""); ?>" <?= ($step == "confirm") ? "hidden" : '';  ?> placeholder="例 :xxx@net-concierge.jp">
+                                <?php if (isset($step) && $step == 'confirm') : ?>
+                                    <p class="confirmPostText"><?php echo $_POST['email']; ?></p>
+                                <?php endif; ?>
+                                <?php if (isset($_SESSION['ERROR']['email'])) : ?>
+                                    <div class="p-form__container">
+                                        <div class="c-error">
+                                            <?= (isset($_SESSION["ERROR"]["email"])) ? h($_SESSION["ERROR"]["email"]) : ""; ?>
+                                        </div>
+                                    </div>
+                                <?php endif; ?>
+                            </div>
+
+                            <div class="contactSect_flex_box">
                                 <label>都道府県<span class="contactSect_astarisk">必須</span></label>
                                 <div class="select_07_half selectBoxArrow" <?= ($step == "confirm") ? "style='width: 0px;height:0px;opacity:0;'" : '';  ?>>
                                     <select class="prefectureSelect" name="都道府県" id="">
@@ -135,21 +150,6 @@ if (!isset($step)) $step = "input";
                                 <?php endif; ?>
                             </div>
 
-                            <div class="contactSect_flex_box">
-                                <label>市区町村</label>
-                                <input type="text" name="市区町村" value="<?= h($_POST["市区町村"] ?? ""); ?>" <?= ($step == "confirm") ? "hidden" : '';  ?> placeholder="例 : ◯◯市◯◯町◯◯番">
-                                <?php if (isset($step) && $step == 'confirm') : ?>
-                                    <p class="confirmPostText"><?php echo $_POST['市区町村']; ?></p>
-                                <?php endif; ?>
-                                <?php if (isset($_SESSION['ERROR']['市区町村'])) : ?>
-                                    <div class="p-form__container">
-                                        <div class="c-error">
-                                            <?= (isset($_SESSION["ERROR"]["市区町村"])) ? h($_SESSION["ERROR"]["市区町村"]) : ""; ?>
-                                        </div>
-                                    </div>
-                                <?php endif; ?>
-                            </div>
-
                             <?php
                             // ない場合の初期化
                             if (!isset($_POST["インターネットの利用状況"])) {
@@ -183,6 +183,22 @@ if (!isset($step)) $step = "input";
                                     <div class="p-form__container">
                                         <div class="c-error">
                                             <?= (isset($_SESSION["ERROR"]["インターネットの利用状況"])) ? h($_SESSION["ERROR"]["インターネットの利用状況"]) : ""; ?>
+                                        </div>
+                                    </div>
+                                <?php endif; ?>
+                            </div>
+
+                            
+                            <div class="contactSect_flex_box">
+                                <label>市区町村</label>
+                                <input type="text" name="市区町村" value="<?= h($_POST["市区町村"] ?? ""); ?>" <?= ($step == "confirm") ? "hidden" : '';  ?> placeholder="例 : ◯◯市◯◯町◯◯番">
+                                <?php if (isset($step) && $step == 'confirm') : ?>
+                                    <p class="confirmPostText"><?php echo $_POST['市区町村']; ?></p>
+                                <?php endif; ?>
+                                <?php if (isset($_SESSION['ERROR']['市区町村'])) : ?>
+                                    <div class="p-form__container">
+                                        <div class="c-error">
+                                            <?= (isset($_SESSION["ERROR"]["市区町村"])) ? h($_SESSION["ERROR"]["市区町村"]) : ""; ?>
                                         </div>
                                     </div>
                                 <?php endif; ?>
