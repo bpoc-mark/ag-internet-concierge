@@ -30,13 +30,13 @@ $config["csvFile"]["name"] = "submit-form.csv";
  *******************************************/
 
 ## 問い合わせ担当者
-$config['receptionist_email'] = 'markariel.maata@bpoc.co.jp';
+$config['receptionist_email'] = 'info@netkaisen-c.jp';
 
 ## 自動返信メールの差出人名
 $config['sender_name'] = 'ネット回線コンシェルジュ';
 
 ## 自動返信メールの差出人メールアドレス
-$config['sender_email'] = "markariel.maata@bpoc.co.jp";
+$config['sender_email'] = "info@netkaisen-c.jp";
 
 ## メールの差出人を固定 (0:無効 / 1:固定)
 ## 固定にした場合、Reply-Toにお客様のアドレスがセットされます。
