@@ -9,4 +9,4 @@ node_module/
 *.csv
 
 # config
-config/mail.php
+# config/mail.php

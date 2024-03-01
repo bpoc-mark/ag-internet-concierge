@@ -13,15 +13,6 @@ if (!defined("DOCROOT")) header("location: /");
 $config["logFile"]["dir"] = DOCROOT . '/logs/';
 $config["logFile"]["name"] = "mail.log";
 
-/*******************************************
- *
- * 応募内容保存CSVファイル
- *
- *******************************************/
-
-$config["csvFile"]["dir"] = DOCROOT . '/logs/';
-$config["csvFile"]["name"] = "submit-form.csv";
-
 
 /*******************************************
  *

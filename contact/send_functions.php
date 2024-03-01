@@ -338,13 +338,6 @@ function send_function()
     $mail_params["body"] .= $server_information;
     $mail_params["body"] .= "<br>\n";
 
-    // save to csv
-    $csv_path = $config["csvFile"]["dir"].$config["csvFile"]["name"];
-    $post_record = array2text($_SESSION["POST"]);
-    $post_record["created"] = date('Y-m-d H:i:s');
-    $post_record["ip"] = $_SERVER['REMOTE_ADDR'];
-    $csv_result = App\Services\Common\CsvService::createWithUtf8insertOne($csv_path, $post_record);
-
     // sending to receptionist
     sendmail_to_receptionist($mail_params);
 
